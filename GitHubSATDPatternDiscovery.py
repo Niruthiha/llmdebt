@@ -398,7 +398,7 @@ def main():
     Main execution function
     """
     # Configuration
-    OPENAI_API_KEY = "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"  # Replace with your API key
+    OPENAI_API_KEY = ""  # Replace with your API key
     DATA_FILE = "/home/niruthi/corrected_repo/raw_llm_dataset.json"   # Replace with your data file path
     SAMPLE_SIZE = 1000
     ANALYSIS_LIMIT = 500 # Start with 100 for testing, increase as needed

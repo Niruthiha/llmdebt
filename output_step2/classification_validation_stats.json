@@ -1,0 +1,69 @@
+{
+  "total_repositories": 866,
+  "categories": {
+    "1A_2A": {
+      "total_count": 100,
+      "high_confidence_count": 8,
+      "medium_confidence_count": 20,
+      "low_confidence_count": 72,
+      "avg_confidence": 0.41538369686901516,
+      "avg_signal_agreement": 0.8699999999999999
+    },
+    "1A_2B": {
+      "total_count": 158,
+      "high_confidence_count": 9,
+      "medium_confidence_count": 20,
+      "low_confidence_count": 129,
+      "avg_confidence": 0.3362436606394319,
+      "avg_signal_agreement": 0.7383966244725738
+    },
+    "1A_2C": {
+      "total_count": 96,
+      "high_confidence_count": 16,
+      "medium_confidence_count": 34,
+      "low_confidence_count": 46,
+      "avg_confidence": 0.47766591274597375,
+      "avg_signal_agreement": 0.7777777777777777
+    },
+    "1A_2D": {
+      "total_count": 78,
+      "high_confidence_count": 4,
+      "medium_confidence_count": 25,
+      "low_confidence_count": 49,
+      "avg_confidence": 0.4289191763855222,
+      "avg_signal_agreement": 0.6944444444444443
+    },
+    "1A_2E": {
+      "total_count": 73,
+      "high_confidence_count": 6,
+      "medium_confidence_count": 17,
+      "low_confidence_count": 50,
+      "avg_confidence": 0.40888033246860345,
+      "avg_signal_agreement": 0.7785388127853881
+    },
+    "1B_2B": {
+      "total_count": 125,
+      "high_confidence_count": 5,
+      "medium_confidence_count": 28,
+      "low_confidence_count": 92,
+      "avg_confidence": 0.38113671901958196,
+      "avg_signal_agreement": 0.7293333333333333
+    },
+    "1B_2C": {
+      "total_count": 62,
+      "high_confidence_count": 9,
+      "medium_confidence_count": 16,
+      "low_confidence_count": 37,
+      "avg_confidence": 0.4562757931897005,
+      "avg_signal_agreement": 0.7553763440860214
+    },
+    "1B_2D": {
+      "total_count": 70,
+      "high_confidence_count": 7,
+      "medium_confidence_count": 20,
+      "low_confidence_count": 43,
+      "avg_confidence": 0.44847799534479754,
+      "avg_signal_agreement": 0.7047619047619047
+    }
+  }
+}

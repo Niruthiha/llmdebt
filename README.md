@@ -37,7 +37,7 @@ It enables a systematic investigation of novel maintenance challenges such as:
 | `raw_llm_dataset.json` | Main dataset containing all GitHub issues (cleaned and processed) |
 | `complete_158_repositories_clean.json` | Repository metadata for all validated repositories |
 | [Repository classification with Layer 1 & Layer 2 annotations](https://docs.google.com/spreadsheets/d/1ALe6BvJUF6pj3avhlppAJFstcB_WBgvOeufE_xLzljk/edit?gid=546671505#gid=546671505)
- |
+ 
 
 ---
 
@@ -62,7 +62,7 @@ It enables a systematic investigation of novel maintenance challenges such as:
 ## Data Schema
 
 ### Issue Object Structure
-```json
+    ```json
 {
   "issue_id": "integer",
   "repo_name": "string",
@@ -77,3 +77,44 @@ It enables a systematic investigation of novel maintenance challenges such as:
   "comments_count": "integer",
   "reactions": "integer"
 }
+
+### Repository Metadata Structure
+    ```json
+{
+  "repo_name": "string",
+  "stars": "integer",
+  "forks": "integer",
+  "contributors": "integer",
+  "created_at": "ISO 8601 timestamp",
+  "last_commit": "ISO 8601 timestamp",
+  "primary_language": "string",
+  "topics": ["array of strings"],
+  "layer1_classification": "Infrastructure|Application",
+  "layer2_tags": "comma-separated string"
+}
+
+## Dataset Statistics
+
+| Metric | Value |
+|--------|--------|
+| **Total Repositories** | 152 |
+| **Total Issues** | 18,286 |
+| **Date Range** | November 2022 – October 2025 |
+| **Mean Stars per Repository** | 8,595 |
+| **Mean Issues per Repository** | 120.3 |
+
+## Contact
+
+For questions or collaboration inquiries, please:
+
+- Open an issue in this repository, or  
+- Contact **niruthiha.selvanayagam.1@ens.etsmtl.ca**
+
+---
+
+## Acknowledgments
+
+We thank the **open-source community** and all contributors to the repositories included in this dataset.  
+Their work provides invaluable insight into the evolving landscape of **LLM software development and maintenance**.
+
+

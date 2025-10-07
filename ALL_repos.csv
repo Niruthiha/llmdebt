@@ -1,0 +1,169 @@
+Repo number,Repo name,Link,Desc,Tags
+Layer 1,,,,
+1,adapter-hub/adapters,https://github.com/adapter-hub/adapters,A Unified Library for Parameter-Efficient and Modular Transfer Learning,Training/Fine-tuning
+2,OpenRLHF/OpenRLHF,https://github.com/OpenRLHF/OpenRLHF,"An Easy-to-use, Scalable and High-performance RLHF Framework based on Ray (PPO & GRPO & REINFORCE++ & vLLM & Ray & Dynamic Sampling & Async Agentic RL)","Training/Fine-tuning, Serving/Inference, Agentic"
+3,PKU-Alignment/safe-rlhf,https://github.com/PKU-Alignment/safe-rlhf,Safe RLHF: Constrained Value Alignment via Safe Reinforcement Learning from Human Feedback,"Training/Fine-tuning, Evaluation/Testing"
+4,oumi-ai/oumi,https://github.com/oumi-ai/oumi,"Easily fine-tune, evaluate and deploy gpt-oss, Qwen3, DeepSeek-R1, or any open source LLM / VLM!","Training/Fine-tuning, Evaluation/Testing, Serving/Inference"
+5,openaccess-ai-collective/axolotl,https://github.com/openaccess-ai-collective/axolotl,Go ahead and axolotl questions, Training/Fine-tuning
+6,Zce719/llm-reasoners,https://github.com/Zce719/llm-reasoners,Language agents as reasoners.,"Agentic, Prompt Engineering"
+7,sousa-lab/GALOR,https://github.com/sousa-lab/GALOR,GALOR: A General Approach for Linearizing Deep Networks,Training/Fine-tuning
+8,huggingface/trl,https://github.com/huggingface/trl,Train transformer language models with reinforcement learning.," Training/Fine-tuning
+
+
+"
+9,unslothai/unsloth,https://github.com/unslothai/unsloth,Finetune LLMs 2-5x faster with 80% less memory,Training/Fine-tuning
+10,horseee/LLM-Pruner,https://github.com/horseee/LLM-Pruner,Pruning Large Language Models to a specific size with a universal model-agnostic algorithm.,Training/Fine-tuning
+11,lucidrains/self-rewarding-lm-pytorch,https://github.com/lucidrains/self-rewarding-lm-pytorch,Implementation of the Self-Rewarding Language Model that is capable of rewarding itself for further fine-tuning,Training/Fine-tuning
+12,mlabonne/dpo-from-scratch,https://github.com/mlabonne/dpo-from-scratch,A step-by-step guide on how to fine-tune language models with Direct Preference Optimization (DPO),Training/Fine-tuning
+13,AGIS-Lab/LLM-Adapters,https://github.com/AGIS-Lab/LLM-Adapters,"Code for the paper ""LLM-Adapters: An Adapter-based Module for Reasoning with Large Language Models"""," Training/Fine-tuning, Agentic"
+14,hiyouga/LLaMA-Factory,https://github.com/hiyouga/LLaMA-Factory,Unify Llama-Factory and Llama-WebUI in one repo,"Training/Fine-tuning, Serving/Inference"
+15,generative-ai-utah/long-context,https://github.com/generative-ai-utah/long-context,"Long context models for sampling, finetuning, and inference","Training/Fine-tuning, Serving/Inference"
+16,pytorch/torchtune,https://github.com/pytorch/torchtune,A Native-PyTorch Library for LLM Fine-tuning, Training/Fine-tuning
+17,allenai/lm-buddy,https://github.com/allenai/lm-buddy,Your buddy for training and deploying open-source LLMs,"Training/Fine-tuning, Serving/Inference"
+18,mosaicml/llm-foundry,https://github.com/mosaicml/llm-foundry,LLM training code for MosaicML examples,Training/Fine-tuning
+19,InternLM/xtuner,https://github.com/InternLM/xtuner,A toolkit for efficiently fine-tuning LLM in LLM-as-a-Service scenarios.,"Training/Fine-tuning, Serving/Inference"
+20,gpustack/gpustack,https://github.com/gpustack/gpustack,"Simple, scalable AI model deployment on GPU clusters",Serving/Inference
+21,NVIDIA/TensorRT-Model-Optimizer,https://github.com/NVIDIA/TensorRT-Model-Optimizer,"A unified library of state-of-the-art model optimization techniques like quantization, pruning, distillation, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM or TensorRT to optimize inference speed.",Training/Fine-tuning
+22,ModelTC/LightLLM,https://github.com/ModelTC/LightLLM,"LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance.",Serving/Inference
+23,ModelCloud/GPTQModel,https://github.com/ModelCloud/GPTQModel,"Production ready LLM model compression/quantization toolkit with hw accelerated inference support for both cpu/gpu via HF, vLLM, and SGLang.",Training/Fine-tuning
+24,SeldonIO/MLServer,https://github.com/SeldonIO/MLServer,"An inference server for your machine learning models, including support for multiple frameworks, multi-model serving and more",Serving/Inference
+25,bentoml/OpenLLM,https://github.com/bentoml/OpenLLM,"Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.", Serving/Inference
+26,microsoft/sarathi-serve,https://github.com/microsoft/sarathi-serve,A low-latency & high-throughput serving engine for LLMs,Serving/Inference
+27,NVIDIA/NeMo-Guardrails,https://github.com/NVIDIA/NeMo-Guardrails,NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems.,"Serving/Inference, Evaluation/Testing"
+28,intel/auto-round,https://github.com/intel/auto-round,"Advanced Quantization Algorithm for LLMs and VLMs, with support for CPU, Intel GPU, CUDA and HPU. Seamlessly integrated with Torchao, Transformers, and vLLM. Export your models effortlessly to autogptq, autoawq, gguf and autoround formats with high accuracy even at extremely low bit precision.",Training/Fine-tuning
+29,vllm-project/vllm,https://github.com/vllm-project/vllm,A high-throughput and memory-efficient inference and serving engine for LLMs,Serving/Inference
+30,zenml-io/zenml,https://github.com/zenml-io/zenml,ZenML ðŸ™: MLOps for Reliable AI: from Classical AI to Agents. https://zenml.io.,Serving/Inference
+31,PaddlePaddle/FastDeploy,https://github.com/PaddlePaddle/FastDeploy,High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle, Serving/Inference
+32,FunAudioLLM/CosyVoice,https://github.com/FunAudioLLM/CosyVoice,"Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.","Serving/Inference, Training/Fine-tuning"
+33,Emerging-AI/ENOVA,https://github.com/Emerging-AI/ENOVA,"A deployment, monitoring and autoscaling service towards serverless LLM serving.","Serving/Inference, Evaluation/Testing"
+34,allwefantasy/byzer-llm,https://github.com/allwefantasy/byzer-llm,"Easy, fast, and cheap pretrain,finetune, serving for everyone"," Training/Fine-tuning, Serving/Inference, RAG, Agentic"
+35,intel/neural-compressor,https://github.com/intel/neural-compressor,"SOTA low-bit LLM quantization (INT8/FP8/INT4/FP4/NF4) & sparsity; leading model compression techniques on TensorFlow, PyTorch, and ONNX Runtime", Training/Fine-tuning
+36,IntelLabs/RAG-FiT,https://github.com/IntelLabs/RAG-FiT,Framework for enhancing LLMs for RAG tasks using fine-tuning.,"RAG, Training/Fine-tuning, Evaluation/Testing"
+37,castorini/pyserini,https://github.com/castorini/pyserini,Pyserini is a Python toolkit for reproducible information retrieval research with sparse and dense representations.,"RAG, Evaluation/Testing
+"
+38,snap-stanford/stark,https://github.com/snap-stanford/stark,(NeurIPS D&B 2024) STaRK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases,"RAG, Evaluation/Testing"
+39,topoteretes/cognee,https://github.com/topoteretes/cognee,Memory for AI Agents in 5 lines of code,"RAG, Agentic"
+40,neo4j/neo4j-graphrag-python,https://github.com/neo4j/neo4j-graphrag-python,Neo4j GraphRAG for Python, RAG
+41,OSU-NLP-Group/HippoRAG,https://github.com/OSU-NLP-Group/HippoRAG,[NeurIPS'24] HippoRAG is a novel RAG framework inspired by human long-term memory that enables LLMs to continuously integrate knowledge across external documents. RAG + Knowledge Graphs + Personalized PageRank.,RAG
+42,danny-avila/rag_api,https://github.com/danny-avila/rag_api,ID-based RAG FastAPI: Integration with Langchain and PostgreSQL/pgvector,"RAG, Serving/Inference"
+43,lightonai/pylate,https://github.com/lightonai/pylate,Late Interaction Models Training & Retrieval,RAG
+44,neuml/txtai,https://github.com/neuml/txtai,"ðŸ’¡ All-in-one open-source AI framework for semantic search, LLM orchestration and language model workflows",RAG
+45,RUC-NLPIR/FlashRAG,https://github.com/RUC-NLPIR/FlashRAG,âš¡FlashRAG: A Python Toolkit for Efficient RAG Research (WWW2025 Resource),"RAG, Training/Fine-tuning, Evaluation/Testing
+
+"
+46,gomate-community/TrustRAG,https://github.com/gomate-community/TrustRAG,"TrustRAGï¼šThe RAG Framework within Reliable input,Trusted output","RAG, Evaluation/Testing"
+47,NovaSearch-Team/RAG-Retrieval,https://github.com/NovaSearch-Team/RAG-Retrieval,"Unify Efficient Fine-tuning of RAG Retrieval, including Embedding, ColBERT, ReRanker.",RAG
+48,D-Star-AI/dsRAG,https://github.com/D-Star-AI/dsRAG,High-performance retrieval engine for unstructured data,RAG
+49,adithya-s-k/VARAG,https://github.com/adithya-s-k/VARAG, Vision-Augmented Retrieval and Generation (VARAG) - Vision first RAG Engine,RAG
+50,Lightning-AI/LitServe,https://github.com/Lightning-AI/LitServe,"The easiest way to deploy agents, MCP servers, models, RAG, pipelines and more. No MLOps. No YAML.",Serving/Inference
+51,KruxAI/ragbuilder,https://github.com/KruxAI/ragbuilder,A toolkit to create optimal Production-readyRetrieval Augmented Generation(RAG) setup for your data,"RAG, Evaluation/Testing, Serving/Inference"
+52,AnswerDotAI/RAGatouille,https://github.com/AnswerDotAI/RAGatouille,"Easily use and train state of the art late-interaction retrieval methods (ColBERT) in any RAG pipeline. Designed for modularity and ease-of-use, backed by research.","RAG, Training/Fine-tuning"
+53,FlagOpen/FlagEmbedding,https://github.com/FlagOpen/FlagEmbedding,Retrieval and Retrieval-augmented LLMs,RAG
+54,superlinear-ai/raglite,https://github.com/superlinear-ai/raglite,ðŸ¥¤ RAGLite is a Python toolkit for Retrieval-Augmented Generation (RAG) with DuckDB or PostgreSQL,RAG
+55,AgentOps-AI/agentops,https://github.com/AgentOps-AI/agentops,"Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI","Agentic, Evaluation/Testing"
+56,ServiceNow/AgentLab,https://github.com/ServiceNow/AgentLab,"AgentLab: An open-source framework for developing, testing, and benchmarking web agents on diverse tasks, designed for scalability and reproducibility.","Agentic, Evaluation/Testing"
+57,MLT-OSS/open-assistant-api,https://github.com/MLT-OSS/open-assistant-api,"The Open Assistant API is a ready-to-use, open-source, self-hosted agent/gpts orchestration creation framework, supporting customized extensions for LLM, RAG, function call, and tools capabilities. It also supports seamless integration with the openai/langchain sdk.","Agentic, Serving/Inference"
+58,PrefectHQ/ControlFlow,https://github.com/PrefectHQ/ControlFlow,ðŸ¦¾ Take control of your AI agents,Agentic
+59,microsoft/RD-Agent,https://github.com/microsoft/RD-Agent,"Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. ðŸ”—https://aka.ms/RD-Agent-Tech-Report",Agentic
+60,datastax/astra-assistants-api,https://github.com/datastax/astra-assistants-api,Drop in replacement for the OpenAI Assistants API,"Agentic, Serving/Inference"
+61,pydantic/logfire,https://github.com/pydantic/logfire,Uncomplicated Observability for Python and beyond! ðŸªµðŸ”¥,Evaluation/Testing
+62,crewAIInc/crewAI,https://github.com/crewAIInc/crewAI,"Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",Agentic
+63,livekit/agents,https://github.com/livekit/agents,A powerful framework for building realtime voice AI agents ðŸ¤–ðŸŽ™ï¸ðŸ“¹,Agentic
+64,entropy-research/Devon,https://github.com/entropy-research/Devon,Devon: An open-source pair programmer,Agentic
+65,agent0ai/agent-zero,https://github.com/agent0ai/agent-zero,Agent Zero AI framework,Agentic
+66,dbos-inc/dbos-transact-py,https://github.com/dbos-inc/dbos-transact-py,Lightweight Durable Python Workflows,Evaluation/Testing
+67,PrefectHQ/prefect,https://github.com/PrefectHQ/prefect,Prefect is a workflow orchestration framework for building resilient data pipelines in Python.,Agentic
+68,FoundationAgents/MetaGPT,https://github.com/FoundationAgents/MetaGPT,"ðŸŒŸ The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",Agentic
+69,Josh-XT/AGiXT,https://github.com/Josh-XT/AGiXT,"AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, and a versatile plugin system, AGiXT delivers efficient and comprehensive AI solutions.",Agentic
+70,griptape-ai/griptape,https://github.com/griptape-ai/griptape,"Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory.",Agentic
+71,letta-ai/letta,https://github.com/letta-ai/letta,"Letta (formerly MemGPT) is the stateful agents framework with memory, reasoning, and context management.","RAG, Agentic"
+72,OSU-NLP-Group/TravelPlanner,https://github.com/OSU-NLP-Group/TravelPlanner,"[ICML'24 Spotlight] ""TravelPlanner: A Benchmark for Real-World Planning with Language Agents""","Evaluation/Testing, Agentic"
+73,llm-workflow-engine/llm-workflow-engine,https://github.com/llm-workflow-engine/llm-workflow-engine,Power CLI and Workflow manager for LLMs (core package),Agentic
+74,chrislatimer/microagent,https://github.com/chrislatimer/microagent,A fork of OpenAI Swarm that supports Groq and Anthropic,Agentic
+75,aj47/100x-orchestrator,https://github.com/aj47/100x-orchestrator,An orchestration system for managing AI coding agents. The system uses Aider (an AI coding assistant) to handle coding tasks and provides real-time monitoring of agent outputs through a user-friendly interface.,Agentic
+76,langroid/langroid,https://github.com/langroid/langroid,Harness LLMs with Multi-Agent Programming,Agentic
+77,mem0ai/mem0,https://github.com/mem0ai/mem0,Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.,"Agentic, RAG"
+78,potpie-ai/potpie,https://github.com/potpie-ai/potpie,Prompt-To-Agent : Create custom engineering agents for your codebase,Agentic
+79,camel-ai/camel,https://github.com/camel-ai/camel,ðŸ« CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org,Agentic
+80,huggingface/optimum-benchmark,https://github.com/huggingface/optimum-benchmark,"ðŸ‹ï¸ A unified multi-backend utility for benchmarking Transformers, Timm, PEFT, Diffusers and Sentence-Transformers with full support of Optimum's hardware optimizations & quantization schemes.",Evaluation/Testing
+81,confident-ai/deepeval,https://github.com/confident-ai/deepeval,The LLM Evaluation Framework,Evaluation/Testing
+82,stanford-crfm/helm,https://github.com/stanford-crfm/helm,"Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models.",Evaluation/Testing
+83,huggingface/evaluate,https://github.com/huggingface/evaluate,ðŸ¤— Evaluate: A library for easily evaluating machine learning models and datasets.,Evaluation/Testing
+84,embeddings-benchmark/mteb,https://github.com/embeddings-benchmark/mteb,MTEB: Massive Text Embedding Benchmark,Evaluation/Testing
+85,open-compass/VLMEvalKit,https://github.com/open-compass/VLMEvalKit,"Open-source evaluation toolkit of large multi-modality models (LMMs), support 220+ LMMs, 80+ benchmarks",Evaluation/Testing
+86,microsoft/promptbench,https://github.com/microsoft/promptbench,A unified evaluation framework for large language models,Evaluation/Testing
+87,pytorch/benchmark,https://github.com/pytorch/benchmark,TorchBench is a collection of open source benchmarks used to evaluate PyTorch performance.,Evaluation/Testing
+88,Pacific-AI-Corp/langtest,https://github.com/Pacific-AI-Corp/langtest,Deliver safe & effective language models,Evaluation/Testing
+89,GoogleCloudPlatform/PerfKitBenchmarker,https://github.com/GoogleCloudPlatform/PerfKitBenchmarker,"PerfKit Benchmarker (PKB) contains a set of benchmarks to measure and compare cloud offerings. The benchmarks use default settings to reflect what most users will see. PerfKit Benchmarker is licensed under the Apache 2 license terms. Please make sure to read, understand and agree to the terms of the LICENSE and CONTRIBUTING files before proceeding.",Evaluation/Testing
+90,SWE-bench/SWE-bench,https://github.com/SWE-bench/SWE-bench,SWE-bench [Multimodal]: Can Language Models Resolve Real-world Github Issues?,Evaluation/Testing
+91,illuin-tech/vidore-benchmark,https://github.com/illuin-tech/vidore-benchmark,Vision Document Retrieval (ViDoRe): Benchmark. Evaluation code for the ColPali paper.,Evaluation/Testing
+92,Vchitect/VBench,https://github.com/Vchitect/VBench,[CVPR2024 Highlight] VBench - We Evaluate Video Generation,Evaluation/Testing
+93,qdrant/vector-db-benchmark,https://github.com/qdrant/vector-db-benchmark,Framework for benchmarking vector search engines,Evaluation/Testing
+94,openml/automlbenchmark,https://github.com/openml/automlbenchmark,OpenML AutoML Benchmarking Framework,Evaluation/Testing
+95,AmenRa/ranx,https://github.com/AmenRa/ranx,"âš¡ï¸A Blazing-Fast Python Library for Ranking Evaluation, Comparison, and Fusion ðŸ",Evaluation/Testing
+96,bigcode-project/bigcode-evaluation-harness,https://github.com/bigcode-project/bigcode-evaluation-harness,A framework for the evaluation of autoregressive code generation language models.,Evaluation/Testing
+97,mlcommons/algorithmic-efficiency,https://github.com/mlcommons/algorithmic-efficiency,MLCommons Algorithmic Efficiency is a benchmark and competition measuring neural network training speedups due to algorithmic improvements in both training algorithms and models.,Evaluation/Testing
+98,LiveCodeBench/LiveCodeBench,https://github.com/LiveCodeBench/LiveCodeBench,"Official repository for the paper ""LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code""",Evaluation/Testing
+99,beir-cellar/beir,https://github.com/beir-cellar/beir,"A Heterogeneous Benchmark for Information Retrieval. Easy to use, evaluate your models across 15+ diverse IR datasets.","Evaluation/Testing, RAG"
+100,Giskard-AI/giskard-oss,https://github.com/Giskard-AI/giskard-oss,ðŸ¢ Open-Source Evaluation & Testing library for LLM Agents,Evaluation/Testing
+101,evalplus/evalplus,https://github.com/evalplus/evalplus,Rigourous evaluation of LLM-synthesized code - NeurIPS 2023 & COLM 2024,Evaluation/Testing
+102,IAAR-Shanghai/UHGEval,https://github.com/IAAR-Shanghai/UHGEval,"[ACL 2024] User-friendly evaluation framework: Eval Suite & Benchmarks: UHGEval, HaluEval, HalluQA, etc.",Evaluation/Testing
+Layer 2,,,,
+1,father-bot/chatgpt_telegram_bot,https://github.com/father-bot/chatgpt_telegram_bot,"ðŸ’¬ Telegram bot with ChatGPT, Python-based, using OpenAI's API.",General Chatbot
+2,evilpan/gptcli,https://github.com/evilpan/gptcli,ChatGPT in command line with OpenAI API (gpt-3.5-turbo/gpt-4/gpt-4-32k),General Chatbot
+3,smaranjitghose/HiOllama,https://github.com/smaranjitghose/HiOllama,"A sleek and user-friendly interface for interacting with Ollama models, built with Python and Gradio.",General Chatbot
+4,Vikranth3140/Mental-Health-Support-Chatbot,https://github.com/Vikranth3140/Mental-Health-Support-Chatbot,"A Mental Health Support Chatbot built using Streamlit and OpenAI's GPT-3.5-turbo model. It provides mental health support through a chat interface, offering sentiment analysis, mood tracking, and personalized coping strategies based on user input.",General Chatbot
+5,SUP3RMASS1VE/Ovis2-8B-,https://github.com/SUP3RMASS1VE/Ovis2-8B-,"This project provides a Gradio-based interface for interacting with the Ovis2-8B model. The script allows users to load the model, process image and video inputs, and generate text-based responses using a conversational chatbot.",Training/Fine-tuning
+6,RAHB-REALTORS-Association/chat2gpt,https://github.com/RAHB-REALTORS-Association/chat2gpt,"ChatÂ²GPT is a ChatGPT (and DALLÂ·E 2/3, and ElevenLabs) chat bot for Google Chat. ðŸ¤–ðŸ’¬",General Chatbot
+7,devtayyabsajjad/Sehat-Connect,https://github.com/devtayyabsajjad/Sehat-Connect,Sehat Connect: An AI-powered virtual health assistant offering personalized medical and nutrition guidance with a user-friendly interface,General Chatbot
+8,RobertoCorti/gptravel,https://github.com/RobertoCorti/gptravel,Travel planning Streamlit web-app based on OpenAI API,Agentic
+9,LegendZDY/AI-IELTS-Speaking,https://github.com/LegendZDY/AI-IELTS-Speaking,AI IELTS Speaking assistant is a fun app to learn English speaking,General Chatbot
+10,adamyodinsky/TerminalGPT,https://github.com/adamyodinsky/TerminalGPT,"TerminalGPT - Terminal-based ChatGPT personal assistant app. Provides optimized, tailored answers for your machine's terminal.",General Chatbot
+11,Quivr/quivr,https://github.com/Quivr/quivr,"Your second brain, powered by Generative AI. Store and retrieve unstructured information using the power of RAG.",RAG
+12,Mintplex-Labs/anything-llm,https://github.com/Mintplex-Labs/anything-llm,"A full-stack, open-source RAG solution. Turns any document, resource, or piece of content into data that any LLM can use.",RAG
+13,imartinez/privateGPT,https://github.com/imartinez/privateGPT,"Provides a private, local AI that you can use to interact with your documents without an internet connection.", RAG
+14,open-webui/open-webui,https://github.com/open-webui/open-webui,A user-friendly WebUI for LLMs (formerly Ollama WebUI) with built-in features for document interaction.,RAG
+15,janhq/jan,https://github.com/janhq/jan,An open-source ChatGPT alternative that runs 100% offline on your computer.,RAG
+16,lobehub/lobe-chat,https://github.com/lobehub/lobe-chat,"A high-performance, open-source chatbot application that supports plugins, vision, and text-to-speech.",Agentic
+17,qwersyk/Newelle,https://github.com/qwersyk/Newelle,Newelle - Your Ultimate Virtual Assistant, General Chatbot
+18,nalgeon/pokitoki,https://github.com/nalgeon/pokitoki,Humble AI Telegram Bot, General Chatbot
+19,weaviate/Verba,https://github.com/weaviate/Verba,Retrieval Augmented Generation (RAG) chatbot powered by Weaviate,RAG
+20,HKUDS/Auto-Deep-Research,https://github.com/HKUDS/Auto-Deep-Research,"""Your Fully-Automated Personal AI Assistant""",Agentic
+21,bhaskatripathi/pdfGPT,https://github.com/bhaskatripathi/pdfGPT,PDF GPT allows you to chat with the contents of your PDF file by using GPT capabilities. The most effective open source solution to turn your pdf files in a chatbot!,RAG
+22,Cinnamon/kotaemon,https://github.com/Cinnamon/kotaemon,An open-source RAG-based tool for chatting with your documents.,"RAG, Agentic"
+23,PromtEngineer/localGPT,https://github.com/PromtEngineer/localGPT,Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.,RAG
+24,InternLM/HuixiangDou,https://github.com/InternLM/HuixiangDou,HuixiangDou: Overcoming Group Chat Scenarios with LLM-based Technical Assistance,RAG
+25,h2oai/h2ogpt,https://github.com/h2oai/h2ogpt,"Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: https://gpt.h2o.ai/ https://gpt-docs.h2o.ai/",RAG
+26,Haste171/langchain-chatbot,https://github.com/Haste171/langchain-chatbot,AI Chatbot for analyzing/extracting information from data in conversational format.,General Chatbot
+27,swirlai/swirl-search,https://github.com/swirlai/swirl-search,"AI Search & RAG Without Moving Your Data. Get instant answers from your company's knowledge across 100+ apps while keeping data secure. Deploy in minutes, not months.",RAG 
+28,yaroslavyaroslav/OpenAI-sublime-text,https://github.com/yaroslavyaroslav/OpenAI-sublime-text,"First class Sublime Text AI assistant with gpt-5, o3 and ollama support!",General Chatbot
+29,yvann-ba/Robby-chatbot,https://github.com/yvann-ba/Robby-chatbot,"AI chatbot ðŸ¤– for chat with CSV, PDF, TXT files ðŸ“„ and YTB videos ðŸŽ¥ | using LangchainðŸ¦œ | OpenAI | Streamlit âš¡",General Chatbot
+30,SaiAkhil066/DeepSeek-RAG-Chatbot,https://github.com/SaiAkhil066/DeepSeek-RAG-Chatbot,"100 % FREE, Private (No Internet) DeepSeekâ€™s Advanced RAG: Boost Your RAG Chatbot: Hybrid Retrieval (BM25 + FAISS) + Neural Reranking + HyDeðŸš€",RAG
+31,marianamartiyns/ChatBot-MunicipAI,https://github.com/marianamartiyns/ChatBot-MunicipAI,"Intelligent chatbot with Indicators Dashboard developed for internal use by a private company, with the aim of providing fast and reliable responses on public data from Brazilian municipalities and states, as well as institutional information from the company itself. The solution integrates scraping, public APIs, LLMs and an interactive interface.",General Chatbot
+32,alphasecio/chainlit,https://github.com/alphasecio/chainlit,A simple Chainlit app for generative question-answering with LangChain and OpenAI.,RAG
+33,BlueBash/postgres-chatbot,https://github.com/BlueBash/postgres-chatbot,"This Streamlit application allows users to interact with their PostgreSQL database using natural language queries. Users can type questions in natural language, which the app translates into SQL queries executed against the database. The results are then displayed in the chat interface. Powered by Google Generative AI and LangChain's SQL agent tool",RAG
+34,kaarthik108/snowChat,https://github.com/kaarthik108/snowChat,Chat snowflake - Text to SQL,RAG
+35,robusta-dev/holmesgpt,https://github.com/robusta-dev/holmesgpt,"Your 24/7 On-Call AI Agent - Solve Alerts Faster with Automatic Correlations, Investigations, and More",RAG
+36,Armur-Ai/Auto-Pentest-GPT-AI,https://github.com/Armur-Ai/Auto-Pentest-GPT-AI,LLM Powered Pentesting for your software,Agentic
+37,Significant-Gravitas/AutoGPT,https://github.com/Significant-Gravitas/AutoGPT,"AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",Agentic
+38,notebook-intelligence/notebook-intelligence,https://github.com/notebook-intelligence/notebook-intelligence,AI coding assistant for JupyterLab,Agentic
+39,existence-master/Sentient,https://github.com/existence-master/Sentient,A personal AI assistant for everyone,Agentic
+40,langchain-ai/executive-ai-assistant,https://github.com/langchain-ai/executive-ai-assistant,,Agentic
+41,GaiZhenbiao/ChuanhuChatGPT,https://github.com/GaiZhenbiao/ChuanhuChatGPT,"GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.",General Chatbot
+42,dKosarevsky/AI-Talks,https://github.com/dKosarevsky/AI-Talks,AI Talks - ChatGPT Assistant via Streamlit,Agentic
+43,zitterbewegung/securday,https://github.com/zitterbewegung/securday,A natural language chatbot accessible using streamlit augmented with tools using langchain.,Agentic
+44,browser-use/web-ui,https://github.com/browser-use/web-ui,ðŸ–¥ï¸ Run AI Agent in your browser.,"Agentic, Serving/Inference"
+45,DawoodTouseef/JARVIS,https://github.com/DawoodTouseef/JARVIS,"JARVIS Virtual Assistant, inspired by Marvel's Iron Man, is an AI-powered tool with voice activation, system monitoring, and proactive suggestions from camera and screenshot analysis. Built with PyQt5 and OpenCV, it boosts productivity with a witty, JARVIS-like charm.",Agentic
+46,Josephrp/LablabAutogen,https://github.com/Josephrp/LablabAutogen,A generalist agent that can go online and accomplish complex tasks using semantic-kernel and autogen.,Agentic
+47,benjichat/langgraph-home-assistant,https://github.com/benjichat/langgraph-home-assistant,,Agentic
+48,DennisDRX/Faraday-Web-Researcher-Agent,https://github.com/DennisDRX/Faraday-Web-Researcher-Agent,"Faraday: An Autonomous Web Research Agent (LangGraph/Streamlit). ðŸ•µï¸â™€ï¸ Investigates queries using dynamic tools (Tavily, Google, NewsAPI, etc.), gathers multi-source info, and synthesizes structured reports in a Streamlit UI. Features agentic workflow & source tracking.",Agentic
+49,ryo-ma/gpt-assistants-api-ui,https://github.com/ryo-ma/gpt-assistants-api-ui,ðŸ’¬ OpenAI Assistants API chat UI ðŸ› ï¸ It works easily by setting the ASSISTANT ID ðŸ“ Supports file upload and file download ðŸƒ Supports Streaming API ðŸªŸ Support to Azure OpenAI,Agentic
+50,datarobot-community/predictive-content-generator,https://github.com/datarobot-community/predictive-content-generator,,Agentic
+51,ricklamers/shell-ai,https://github.com/ricklamers/shell-ai,LangChain powered shell command generator and runner CLI,Agentic
+52,devopshobbies/devops-gpt,https://github.com/devopshobbies/devops-gpt,"An AI-powered assistant that simplifies DevOps tasks with intelligent prompts, reducing repetitive work and enhancing productivity",Agentic
+53,seratch/ChatGPT-in-Slack,https://github.com/seratch/ChatGPT-in-Slack,Swift demonstration of how to build a Slack app that enables end-users to interact with a ChatGPT bot,General Chatbot
+54,kaymen99/Upwork-AI-jobs-applier,https://github.com/kaymen99/Upwork-AI-jobs-applier,"AI tool for automating Upwork job applications using AI agents to find and qualify jobs, write personalized cover letters, and prepare for interviews based on your skills and experience.",Agentic
+55,rusiaaman/wcgw,https://github.com/rusiaaman/wcgw,Shell and coding agent on claude desktop app,Agentic
+56,jekalmin/extended_openai_conversation,https://github.com/jekalmin/extended_openai_conversation,Home Assistant custom component of conversation agent. It uses OpenAI to control your devices.,Agentic
+57,assafelovic/gpt-researcher,https://github.com/assafelovic/gpt-researcher,LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.,Agentic
+58,oobabooga/text-generation-webui,https://github.com/oobabooga/text-generation-webui,"A Gradio web UI for Large Language Models. Supports transformers, GPTQ, AWQ, EXL2, llama.cpp (GGUF), Llama models."," Serving/Inference, General Chatbot, Training/Fine-tuning"

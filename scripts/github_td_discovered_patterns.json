@@ -1,0 +1,2526 @@
+{
+  "satd_phrases": [
+    "we could add support for binary data in payloads for http requests",
+    "Prefect event webhooks do not support Azure Event Grid\u2019s subscription validation handshake.",
+    "As a result, Prefect cannot receive events directly from Azure Event Grid.",
+    "Currently, users must build and maintain additional cloud functions or webhook relays solely to handle Event Grid\u2019s validation handshake.",
+    "\u8bcd\u8868\u957f\u5ea6\u4e0d\u4e00\u81f4",
+    "\u663e\u793atensor 'token_embd.weight' has wrong shape; expected 6144, 92550, got 6144, 92544",
+    "\u6d41\u5f0f\u8f93\u5165\u6709\u6982\u7387\u5728\u751f\u6210\u97f3\u9891\u91cc\u9762\u76f4\u63a5\u590d\u5236\u539f\u59cbprompt\u97f3\u9891\u91cc\u9762\u7684\u90e8\u5206\u6bb5\uff0c\u975e\u6d41\u5f0f\u8f93\u5165\u5219\u4e0d\u4f1a\u51fa\u73b0",
+    "should be updated to limit the number of translation pipelines created",
+    "current test is raising HTTP 429 tests with the `list_models` call",
+    "Dropping the following result as it does not have all the necessary fields",
+    "The current RLOO trainer implementation has significant memory inefficiency when handling multiple generations per prompt.",
+    "This implementation physically duplicates prompt tokens in GPU memory, creating exponential memory issues(>rloo_k=4).",
+    "The RLOO trainer uses inefficient token-level duplication in its core generation logic.",
+    "Fontconfig error: Cannot load default config file: No such file: (null)",
+    "cannot create /Annot for kind: 4",
+    "I'm poking through the codebase and made sure my .env.example was set and renamed.",
+    "not sure if it's helpful as I'm not super familiar with the codebase yet.",
+    "this might be a toy run",
+    "there are no in-context examples",
+    "search indexes are not being copied",
+    "the implementation for this may not be that easy",
+    "Datadog installs some kind of additional binary and a handler that wraps the default Lambda handler to make this work",
+    "to run the example app of hello_world.py with the llm config of ollama encounter the exception when json.loads the response",
+    "Exception has occurred: JSONDecodeError",
+    "BetterTransformer requires transformers<4.49 but found 4.53.3.",
+    "`optimum.bettertransformer` is deprecated and will be removed in optimum v2.0.",
+    "what if I forget how I ingested my documents 2 months ago",
+    "the results will not be accurate",
+    "we should provide that in the UI",
+    "we are in need of a Profile setting where the user can save its configuration",
+    "Currently, it's not clear on how to contribute examples to Prefect.",
+    "On our docs there is not clear guidance on the expected structure, formatting, and review process.",
+    "This makes it difficult for contributors to add new examples.",
+    "It doesn't directly state the criteria and process to submit examples of Prefect patterns that may be useful for users.",
+    "I had to figure out how to reach the agents endpoints, etc.",
+    "I can not define/test my agents with my local defined models.",
+    "Letta app should either remember last one or allow removal of the default 'localhost' server, as it always defaults to that even if another (url based) local server is defined, and can not be removed.",
+    "Make tests run faster - currently it takes 10-15min to run the test suite.",
+    "The error messages of the doctests that run for the metrics (measurements/comparisons) are hard to read. It would be great if we could improve that.",
+    "Everything was working, including with vLLM, before updating to the latest release.",
+    "The server gets to the following but then infinitely blocks.",
+    "Going through the docs is really annoying because of integrations extending over multiple pages.",
+    "I suggest we enclose integrations in a single table, back-linking to their respective docs, to keep the doc reader-friendly and simple.",
+    "Not sure if this is related to the changes to /v1 API handling?",
+    "However, when I use this code base, I get 51.6 for Llama3-8B-Instruct and 45.4 for Llama3-8B base.",
+    "Strangely, I was managed to reproduce the greedy decoding pass@1 score for HumanEval.",
+    "TypeError: compile() arg 1 must be a string, bytes or AST object",
+    "Error executing function web_search: TypeError: compile() arg 1 must be a string, bytes or AST object",
+    "I can't find any function that allow me to change the format",
+    "I want the console log to be the same as default loguru",
+    "when set the local succeed",
+    "But when use the DeepEval test , still the OpenAI Key ?",
+    "It should get the current changes from db without refreshing ui manuelly.",
+    "When I create or update a chat using the API, the result is not reflected in the currently open OpenWebUI session. I have to manually refresh the interface to see the changes.",
+    "there can be more simple and more resource thoughtful way of recording audio",
+    "diarization still works pretty bad",
+    "this is what stopping us from complete switch from Retell to LiveKit agents",
+    "no matter how I change these two paras(ray_num_workers and GPU) it still shows OOM problem",
+    "If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.",
+    "As a starting point, we could implement just a pairwise judge that could be useful with techniques like Online DPO",
+    "Please let me know if you have feedback on this approach or if there could be other more useful abstractions to make this something torchtune would want to integrate.",
+    "the retried second processing subflow is incorrectly given the parameters for A instead of C",
+    "this causes the parent flow run to complete successfully on retry eventhough some failed subflows were not actually retried",
+    "But, following error still hasn't been resolved.",
+    "# The larger, the higher the accuracy, but might overfit",
+    "# Optional now! Can specify a list if needed",
+    "\u5728\u90e8\u7f72\u7684\u65f6\u5019\u6ca1\u6709\u4f7f\u7528\u5b98\u65b9\u7ed9\u7684\u811a\u672c \u800c\u662f\u76f4\u63a5\u4e0b\u8f7d\u7684docker-compose init-data.json searxng.yml\u548c.env\u6587\u4ef6",
+    "\u529f\u80fd\u6b63\u5e38 \u4f46\u662f\u5728\u77e5\u8bc6\u5e93\u529f\u80fd\u4e2d \u65b0\u4e0a\u4f20txt\u6587\u4ef6\u540e \u65e0\u6cd5\u5728\u7ebf\u9884\u89c8 \u62a5\u9519500 internal error",
+    "I would like to have an option that allows AnythingLLM to auto-add all documents from a specified folder",
+    "This would work very similarly to 'Automatic document sync' (experimental feature)",
+    "I see that #1873 was closed 9 months ago, with others asking for the exact same thing.",
+    "This does not match what I understand to be the core benchmarking run_specs.conf",
+    "Nor does it match the 10 subjects mentioned in the docstring for that section of the run_specs.conf",
+    "version 07f7921 seems to save incorrect lora model when training",
+    "the 07 version model performs poorly",
+    "the training parameters are identical",
+    "Why is FP4_E2M1 like this?",
+    "How is 0.0625 computed?",
+    "shouldn't it be 0.5?",
+    "Is FP4_BNB the result of left shifting FP4_E2M1 one bit?",
+    "Looks like while installing dependencies, the package Cython conflicts with the installation.",
+    "Error building image sweb.eval.x86_64.scikit-learn__scikit-learn-25500:latest: The command '/bin/sh -c /bin/bash /root/setup_repo.sh' returned a non-zero code: 1",
+    "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead.",
+    "LLM Provider NOT provided. Pass in the LLM provider you are trying to call.",
+    "You passed model=<custom>/openai/gpt-oss-120b",
+    "One workaround I am going to try is to enable Tensorboard and examine the logs on the head node.",
+    "Still, I think it would be really useful to see the exact remote output so you know your job is doing okay.",
+    "task specific evaluators",
+    "as I did it manually when I did whisper's benchmark",
+    "\u5728\u8fdb\u884c\u538b\u529b\u6d4b\u8bd5\u65f6\u53d1\u73b0\u7684",
+    "\u6210\u529f\u7387\u4e0d\u8db3100",
+    "datasets dropped python 3.7 support",
+    "this line won't work anymore",
+    "best approach in integrating the RAG module into Data Interpreter",
+    "without hindering the current architecture of the agent",
+    "I think allowing it to be able to access freeGPT model will be highly beneficial considering that we won't be limited by the gpt api anymore",
+    "ValueError: Can not map tensor 'model.layers.0.mlp.down_proj.weight.absmax'",
+    "TypeError: 'NoneType' object is not iterable",
+    "Running without the base model option works fine",
+    "the process pool starts to increase",
+    "the benchmark script becomes unresponsive and eventually times out",
+    "this issue might impact the benchmark result",
+    "the processes consume a significant amount of CPU time",
+    "\u5ba2\u6237\u7aef\u65e0\u6cd5\u8fde\u63a5\u81ea\u90e8\u7f72\u5b9e\u4f8b",
+    "\u5e0c\u671b\u5ba2\u6237\u7aef\u53ef\u6b63\u5e38\u8fde\u63a5\u81ea\u90e8\u7f72\u5b9e\u4f8b",
+    "\u5173\u95ed\u53cd\u4ee3\u7684HTTP2\u7684\u62a5\u9519\u5982\u4e0b",
+    "\u5f00\u542f\u53cd\u4ee3\u7684HTTP2\u7684\u62a5\u9519\u5982\u4e0b",
+    "Missing close buttons in prompts dialog",
+    "start window decorations",
+    "failed to import ttsfrd, use WeTextProcessing instead",
+    "Repo id must use alphanumeric chars or '-', '_', '.', '--' and '..' are forbidden, '-' and '.' cannot start or end the name, max length is 96: ''.",
+    "Has anyone ever faced similar issue?",
+    "Is it okay to ingest such amount of data?",
+    "Is it really possible to avoid SQLite restrictions?",
+    "KeyError: 'messages'",
+    "I ran the following script but got error.",
+    "I have successfully got the result of vidore/colpali-v1.3 using similar script structure.",
+    "size mismatch for bias: copying a param with shape torch.Size([2048]) from checkpoint, the shape in current model is torch.Size([1280]).",
+    "underscores the need for ongoing refinement and rigorous testing to ensure medical LLM\u2019s accuracy and reliability",
+    "Error when Indexing GraphRAG: 'Columns must be same length as key'",
+    "This can take a long time.",
+    "Span creation is currently quite hidden",
+    "Expose this publicly so users can create spans",
+    "the process of building Docker images (or having them built by a cloud image builder) often lacks clear and informative log messages.",
+    "Users may find it challenging to understand when and why certain Docker builds are used or not used in their workflows.",
+    "Improve the logging mechanism in ZenML to provide clear and explicit messages about Docker build processes.",
+    "Enhanced logging will improve transparency and aid in troubleshooting and optimizing pipeline executions.",
+    "Evaluate the sentiment of the given text and classify it as 'positive' or 'negative'",
+    "Given the context of this text, indicate if the emotion conveyed is 'positive' or 'negative'",
+    "Analyze the tone of this statement and respond with either 'positive' or 'negative'",
+    "In the role of a sentiment analysis tool, respond with 'positive' or 'negative' to classify this statement",
+    "Functioning as a sentiment identification tool, assess if the following expression is 'positive' or 'negative'",
+    "Serving as a sentiment evaluation model, determine if the given statement is 'positive' or 'negative'",
+    "Currently, hybrid search executes keyword search and vector search independently, and then combines the results of both with RRF.",
+    "This could be optimised by implementing a single SQL query that pushes all of this computation to the database.",
+    "why not to go shortcut and use llama-cpp-python directly?",
+    "401 Client Error: Unauthorized for url: https://huggingface.co/decapoda-research/llama-7b-hf/resolve/main/tokenizer_config.json",
+    "The number of returned top-k isn't always as specified",
+    "this is more the case for the fine-tuned version of colbert-v2",
+    "it's uncommon to have such a high top-k",
+    "this is helpful for me when benchmarking and making the function more predictable when used",
+    "Parsing PDF takes forever",
+    "For a simple 497KB pdf it's already 186s / 30.9s and counting.",
+    "We forked and implemented this ability for our own needs",
+    "Ideally we'd contribute back to this repo instead of maintaining a fork.",
+    "While deleting a few documents, it began to give errors.",
+    "Now when I reboot and restart the application I am getting the following errors:",
+    "`seed: null` should generate random seed but launching same standard config with `seed: null` twice creates the same loss curve and metrics",
+    "May be caused by #2339",
+    "I want to call either multi-user-transcribe agent or AI interview agent.",
+    "I didn't find any multi-agent reference based on condition & I don't want to add a redundant Agent to just orchestrate calling either agents.",
+    "Your ZenML client version (0.75.1) does not match the server version (0.75.0). This version mismatch might lead to errors or unexpected behavior.",
+    "there's a monkey-patch to avoid this error and get it working, but seems very ugly.",
+    "a cleaner way to save the model (lora adapters) and load it for inference with the modified lm_head.",
+    "a native support for finetuning classification models would be great too if it's in the plans.",
+    "We should transition our gc_steps to use that.",
+    "gc_steps also does a gc.collect() which transformers trainer doesn't do, so we should still support that.",
+    "\u6839\u636edebug\u65f6\uff0c\u67e5\u627e\u5230\u52a0\u8f7d\u6570\u636e\u96c6\u7684\u4ee3\u7801load_data",
+    "\u901a\u8fc7\u67e5\u770bload_dataset\u6e90\u7801\uff0c\u7ed3\u5408\u672c\u4eba\u7684\u7406\u89e3\u4fee\u6539\u7684evaluation.run()\u65b9\u6cd5\u4e2d\u7684\u53c2\u6570",
+    "\u6bd4\u5982\u672c\u4eba\u81ea\u5df1\u6dfb\u52a0\u4e86\u201cpath\u201d\u53c2\u6570",
+    "The JSON format expected by LobeChat, specifically of the `arguments` key, does not match to the Ollama spec",
+    "On top of that, `id` and `type` are not present in Ollama output",
+    "Because of that, feature like Web search is not working (the tool is skipped)",
+    "templatic augmentation issues with pydantic v1 basemodel.",
+    "UnboundLocalError: cannot access local variable 'additional_info' where it is not associated with a value",
+    "Backward Compatibility: Default model_type(chat, completion) for OpenAI and Azure-OpenAI",
+    "we have a lot of printing when running tasks",
+    "I would like to rework printing such that it is both pleasant and considerate",
+    "Consider whether `logging.py` can be removed",
+    "Using the `ConcatTokensDataset` from `data/data.py` means creating sharded datasets for each tokenizer which uses up a lot of disk space.",
+    "Using the `NoConcatTokensDataset` instead seems to solve the disk usage issue but leads to massively decreased throughput because the tokens are not concatenated while also degrading the training stability (perplexity goes all over the place instead of gradually decreasing.)",
+    "Is there a way to combine the best of both worlds, i.e. having a text streaming dataset that concatenates tokens within a sample during training?",
+    "[Errno 111] Connection refused",
+    "I made the adjustment to the dockerfile as describe here",
+    "\u76ee\u524d\u5df2\u77e5\u53ea\u6709\u5728\u767b\u5f55\u72b6\u6001\u4e0b\u5b9e\u73b0\u804a\u5929\u8bb0\u5f55\u9694\u58c1\u3002",
+    "\u53ef\u662f\u73b0\u5728\u7684\u4f7f\u7528\u573a\u666f\u60f3\u5728\u4e0d\u767b\u9646\u7684\u72b6\u6001\u4e0b\u4e5f\u53ef\u4ee5\u5b9e\u73b0\u4fdd\u5b58\u5bf9\u8bdd\u7684\u8bb0\u5f55\uff0c\u662f\u5426\u53ef\u4ee5\u901a\u8fc7\u8bfb\u53d6\u6d4f\u89c8\u5668\u7f13\u5b58\u7684\u65b9\u5f0f\u5b9e\u73b0\u672a\u767b\u5f55\u72b6\u6001\u4e0b\u7684\u5bf9\u8bdd\u8bb0\u5f55\u9694\u79bb\uff1f",
+    "I'm not entirely sure how it would select the previous conversations",
+    "obviously each conversation would need a unique identifier",
+    "Adding (1) setup scripts to image build repo",
+    "git reset --hard 5ec2bd279729ff534719b8bf238dbbca907b93c5",
+    "chmod -R 777 /testbed",
+    "Is it good way compatible with HippoRAG or should I change something?",
+    "Link to `robust04` README is broken.",
+    "Might want to go through and make sure they all work...",
+    "I'm unsure how to integrate it with quant_nn.QuantConv",
+    "suboptimal solutions or temporary fixes",
+    "known limitations or problems they plan to address",
+    "technical shortcuts or workarounds",
+    "areas needing future improvement",
+    "\u770b\u8d77\u6765lightllm\u7ed3\u679c\u4e0e\u62a5\u544a\u7684\u6027\u80fd\u76f8\u5dee\u5f88\u5927\uff0c\u53ef\u4ee5\u544a\u8bc9\u6211\u662f\u54ea\u91cc\u8bbe\u7f6e\u9519\u8bef\u4e86\u5417\uff1f",
+    "it's weird that setting a result_storage creates a side effects on the logging, seems like a bug to me.",
+    "This is fixed by adding `torch_dtype=torch.bfloat16` to the model loading line of `gemma.py`.",
+    "I'm considering making a PR about this, but scores were visibly computed at least once using default (bf32) settings.",
+    "you need to install the following dependencies['nltk'] using 'pip install # Here to have a nice missing dependency error message early on'",
+    "Warning: Cannot load \"@napi-rs/canvas\" package: \"Error: Cannot find module '@napi-rs/canvas'\"",
+    "Warning: Cannot polyfill `DOMMatrix`, rendering may be broken.",
+    "Warning: Cannot polyfill `ImageData`, rendering may be broken.",
+    "Warning: Cannot polyfill `Path2D`, rendering may be broken.",
+    "(node:28) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.",
+    "I suspect that it's the GPU who use the largest VRAM could not fit any more.",
+    "Is that possible to balance the VRAM usage across the GPUs, so that none of any one would be the resource boundary of the whole system.",
+    "I tried to set --tensor-split=16,16,16,13,16,16,16,16 combining with --gpu-layers=63 for Gemma3 to adjust VRAM usage manually, however, the model could not even start in case ctx-size is 100k.",
+    "Currently, the only option is to pickle the metadata dictionary and save to local file system.",
+    "This is a problem when trying to deploy with Lambda functions.",
+    "centralize the logging mechanism",
+    "enhance maintainability",
+    "My guess is that the `langchain_huggingface` package is missing from the `requirements.lite.txt` file.",
+    "this logic needs to be improved",
+    "an additional check should be added",
+    "the method can always be manually set",
+    "Both metrics seem relatively straightforward (famous last words!).",
+    "Something went wrong during completion.",
+    "It shouldn't be my OpenAPI API key, I generated a separate one just for this, and it has only used up a few cents now, so it's most probably not that.",
+    "I think this can be implemented like:",
+    "create test similarly to metadata.is_filled()",
+    "Enable using other files such as DOC, images etc.",
+    "Unstructured allows us to utilize their API via a JS SDK",
+    "Their API can be deployed as a docker container locally via the current docker compose and use this locally.",
+    "When strict recovery is enabled in Agent's config the following code causes endless loop",
+    "This method makes it straightforward to communicate with the system and also offers flexible options for saving the trained models, either locally or on cloud storage \u2014 though we can figure out the details of cloud storage later.",
+    "By setting up a RESTful server, teams can easily put Axolotl to work in their own systems and start training or tweaking models with just a few clicks. This setup removes the technical hurdles and lets anyone manage machine learning tasks through simple web requests.",
+    "there is not memory getting saved with `infer=False`",
+    "Am I doing something wrong here?",
+    "It would be a great feature if there the rage can interact with bedrock API also as it's one of the leading model provider",
+    "most of the organisations including mine, prefer using aws infra for obvious reasons",
+    "ValueError: Requested tokens (2332) exceed context window of 2048",
+    "Is this a threshold under the hood for the token-size of the queries aggregated or the token size of the anticipated response?",
+    "It appears only to happen after at least 3 queries have been made.",
+    "There are a few code tools that claims to be better than Claude",
+    "input_prompts.append([q + ' ' + doc for doc in docs])\u8fd9\u53e5\u8bdd\u62a5\u9519\u8bf4\u4e0d\u80fdappend\u4e00\u4e2a\u5b57\u5178\uff0c\u7136\u540e\u6211\u5c31\u6539\u6210\u4e86 input_prompts.append([q + ' ' + doc['contents'] for doc in docs])",
+    "\u6211\u8bd5\u7740\u5c06\u62a5\u9519\u8bed\u53e5\u6539\u4e3a outputs = self.model.generate(**inputs, # do_sample=True, # temperature=0.8, # top_p=0.9, max_length=256, # num_beams=1,)",
+    "eval.py hangs when config yaml's model hparams don't match model checkpoint hparams",
+    "The llama_cpp_binaries module does NOT exist for Linux.",
+    "It is only built for Windows 3.11 Wheels and is a workaround for portable/server mode.",
+    "The current architecture of oobabooga/text-generation-webui requires server mode for GGUF models \u2013 this is effectively no longer available for Linux.",
+    "`ValueError`",
+    "`temperature` (=0) has to be a strictly positive float, otherwise your next token scores will be invalid.",
+    "there is an error of: RuntimeError: Unsloth: vllm_process failed to load!",
+    "the script can run in colab with H100 GPU",
+    "the results weren\u2019t particularly stable",
+    "I can\u2019t effectively control the quality and length of the generated text",
+    "None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.",
+    "Fix Error in Accuracy Tests for Multi-Label Classification",
+    "--bf16",
+    "we will work on polishing up the paper eval code and preparing it for release",
+    "these results are quite expensive and resource-intensive to replicate",
+    "we will work on releasing the MemGPT generations from our paper",
+    "UserWarning: 1Torch was not compiled with flash attention.",
+    "UserWarning: Trying to convert audio automatically from float32 to 16-bit int format.",
+    "RuntimeWarning: Couldn't find ffprobe or avprobe - defaulting to ffprobe, but may not work",
+    "Is there any known limitation with allow_interruptions=False and AWS STT?",
+    "Does LiveKit drop audio input during the assistant's speaking time or delay it indefinitely?",
+    "How can I allow the assistant to finish speaking but still capture what the user said afterward?",
+    "\u5b58\u5728\u8f93\u5165\u957f\u6587\u672c\u540e\uff0ctokenizer\u5bf9\u6587\u672c\u8fdb\u884c\u5206\u5272\uff0c\u524d\u540e\u5206\u5272\u540e\u7684\u5408\u6210\u7684\u8bed\u97f3\u5728\u97f3\u8272\u3001\u8bed\u6c14\u3001\u8bed\u8c03\u4e0a\u6709\u663e\u8457\u4e0d\u540c",
+    "\u5bfc\u81f4\u957f\u6587\u672c\u8bed\u97f3\u7684\u4f53\u9a8c\u5341\u5206\u5272\u88c2",
+    "Currently i cannot really use the 'Sparse mode' of BGE-M3.",
+    "Why does this mode need so much VRAM? Is this to be expected?",
+    "Can this somehow be mitigated? Split over GPUs?",
+    "editing settings.yaml and running again isn't enough to change to different models",
+    "I'm ok if errors happen or the new models don't work properly",
+    "\u8fd9\u901a\u5e38\u662f\u7531\u4e8e pydantic \u7248\u672c\u517c\u5bb9\u6027\u95ee\u9898\u5f15\u8d77\u7684\u3002",
+    "\u56e0\u6b64\u8fd9\u4e2a\u95ee\u9898\u603b\u7684\u6765\u8bf4\u662f\uff0cpydantic \u5c0f\u4e8e2.0\u548c\u5927\u4e8e\u7b49\u4e8e2.0 \u4e5f\u5c31\u662f\u6574\u4e2a\u9879\u76ee\u4e2d\u5b58\u5728\u5f15\u7528pydantic\u8fd9\u4e2a\u5e93\u65f6\u5019\u51fa\u73b0\u4f9d\u8d56\u51b2\u7a81\u9519\u8bef",
+    "This can cause many duplicates in the vector database, long term leading to problems in RAG because of duplicates in top-k results.",
+    "I would have expected similar file treatment through both routes.",
+    "Does not pass the arg trust_remote_code here",
+    "Currently `axolotl train` does have a single --trl flag, but it is unusable.",
+    "The best way to do that is likely by adding additional if-clause into `add_options_from_config`.",
+    "we need to be able to skip execution of such code blocks in H2OLocalCommandLineCodeExecutor",
+    "filtering by the items per page selector seems not to be useful and is limiting the graphs usefulness for us",
+    "I need to delete the newly created docker work pool, and create a new one, so I can add the Docker Registry Credentials from the Prefect Blocks.",
+    "TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''",
+    "issues with upserts that delete all existing data",
+    "Passing the SQLAlchemy engine to table DDL statements. This wraps the operation with another layered transaction.",
+    "Passing the SQLAlchemy engine to the database session. This is causing locking behavior within the same database component.",
+    "For ANNs backed by databases, the `close` method must be run before recreating a new ANN.",
+    "having a scheduled flow tampering with the Prefect database directly might be a source of issues downhill.",
+    "it would be very nice if Prefect server had a way of cleaning its logs automatically.",
+    "The outputs of `find_zero` are not an iterable.",
+    "You always get this error: TypeError: Value after * must be an iterable, not float",
+    "no output is shown in the terminal",
+    "But o1 is indeed being used and charged",
+    "logs does have the o1 output as 'DEBUG', it is just not shown in the terminal",
+    "Currently we return the output of explainers as v2 `BYTES` and downstream would need to know details about `alibi.Explanation` in order to decode and consume the response.",
+    "Perhaps we need to introduce a v2 protocol extension to describe the output of explain call?",
+    "This would require also codec specific to deal with Explanation data.",
+    "the problem seems to be that outlines (versions 0.0.43\u20130.0.46) depends on pyairports, but pyairports is not available on PyPI",
+    "To fix this you could try to: loosen the range of package versions you've specified or remove package versions to allow pip to attempt to solve the dependency conflict",
+    "Error compiling Cython file",
+    "undeclared name not builtin: PyInt_CheckExact",
+    "undeclared name not builtin: PyInt_Check",
+    "missing display names",
+    "duplicate entries",
+    "phantom models",
+    "disabled states",
+    "requiring manual SQL intervention to make models usable",
+    "the '</s>' is added as a string, THEN the '<|endoftext|>' token is added afterwards",
+    "resulting in the tuned model to output BOTH '</s>' and '<|endoftext|>' when conversation turn ends",
+    "Looking at the code, in the llmrails.py file, I see the following line changing the res object:",
+    "Commenting out this line solves the issue.",
+    "`num_procs` seems to be disregarded",
+    "unsloth seems to loop and spawn new process and crash",
+    "I realised Id personally like the following features",
+    "Search functionality within the graph across inputs, outputs and block titles",
+    "List of all blocks we have in the graph which moves view to that block when clicked",
+    "I'm encountering an error in my predict function",
+    "which is causing a multiprocessing.managers.RemoteError",
+    "resulting in the server going down",
+    "it would be useful to introduce support for Unions in simplified `predict()` interfaces.",
+    "This would allow for use cases where data types are variable",
+    "I am not sure whether this is a bug or maybe it's just my personal operation.",
+    "when creating a sandbox, you should pass it an app for cost tracking in modal.",
+    "I previously ran into an issue where image building processes ended up getting orphaned and accumulated > $200 without any way to stop those processes.",
+    "Supposedly fixed if you associate each container with an app.",
+    "Also not sure it makes sense to have a modal function call its own modal sandbox. That seems like twice the number of instances necessary.",
+    "Currently, when `compute` is called all data is loaded into memory and passed as a list.",
+    "This can pose a bottleneck especially for data intensive modalities (e.g. images) or measurements of large datasets.",
+    "As an alternative we could pass a generator (or something similar) object that iterates over the datasets as many metrics are calculated in for loops or list comprehensions.",
+    "it seems that it hasn't been decided on what to do with ASR tasks since downstream ASR tasks require non-trivial evaluation process/implementation.",
+    "though it may lack motivation/significance since they already put it together.",
+    "This is the first of several test features we'll use to determine which is the best instrumentation library.",
+    "but another process is utilizing it.",
+    "Please specify a different port (such as using the `----main_process_port` flag or specifying a different `main_process_port` in your config file) and rerun your script.",
+    "To automatically use the next open port (on a single node), you can set this to `0`.",
+    "I wonder if I can use one of the existing recipes like `llama3_2/1B_full` and derive my own template to fine-tune the Llama Guard models.",
+    "I appreciate any suggestions to tell me if I am on the right track before I spend more time on it.",
+    "Please help, I can't install bot, What I do wrong?",
+    "FileNotFoundError: [Errno 2] No such file or directory",
+    "I modified the GLUE code so that the attack evaluation can be carried out, but the current score of the output is always 0.",
+    "I want to know why?",
+    "This version doesn't seem to be compatible",
+    "consider locking the version temporarily",
+    "the hostname is hardcoded",
+    "the port information is not passed on to method connect_to_docker",
+    "fixes the issue",
+    "Let's add a little quick command, maybe `/c` so I don't have to type 'continue' over and over.",
+    "These changes need to be made to Mistral.",
+    "Update tokenize_message to use add_start_tokens and add_end_tokens like in https://github.com/pytorch/torchtune/pull/1494",
+    "Replace add_eos with add_end_tokens and update tokenize_messages as in https://github.com/pytorch/torchtune/pull/1494",
+    "This can lead to a sprawl of deployments that may hold little business meaning",
+    "This code is hard to grok and easy to mess up.",
+    "the parent flow\u2019s relationship to the child infra-dependent flows is very decoupled making execution of the parent flow brittle to changes in server-side configuration",
+    "it\u2019s highly likely that `my_vertex_flow` and `my_high_cpu_k8s_flow` will fail if called directly because they rely on specialized infrastructure, but the flow author cannot enforce that dependency in Prefect today.",
+    "Why do you need any validations here that breaks API?",
+    "I'm not sure what to look at next to debug this.",
+    "Need to make sure we don't break evals",
+    "throws a `ValueError` when the input string contains only spaces",
+    "contradicts the expected behavior",
+    "Ideally, the function should return an empty dictionary `{}` for strings containing only spaces",
+    "Model has neither pad_token or eos_token, setting batch size to 1",
+    "should change to if hf_pipeline.tokenizer.pad_token_id is None",
+    "\u5728\u63a8\u7406\u65f6\u9884\u52a0\u8f7d\u539f\u59cb\u6a21\u578b\u6743\u91cd\u65f6\u51fa\u73b0huggingface\u8fde\u63a5\u4e0d\u4e0a\u7684\u95ee\u9898",
+    "\u662f\u5426\u6709\u529e\u6cd5\u5c06\u9884\u8bad\u7ec3\u6a21\u578b\u6539\u4e3a\u672c\u5730\u8def\u5f84\u53c2\u6570",
+    "I have checked that the number of results and the task_id is exactly matched to the MBPPPlus v0.3.0.",
+    "When I run without docker: evalplus.evaluate --dataset mbpp --samples my_data.jsonl I got the correct answer.",
+    "MMCV==2.2.0 is used but incompatible.",
+    "Please install mmcv>=2.0.0rc4 < 2.1.0",
+    "only uses bearer token authentication",
+    "need to add API key authentication support to make it consistent with other API endpoints",
+    "reuse the get_api_key_user dependency",
+    "-DLLAMA_CUBLAS is deprecated",
+    "dependency versions for compatibility",
+    "You should make `check_keys` optional in evaluate because sometimes queries do not return any results for lexical-based systems.",
+    "trained multimodal model can only input **one image** at one time",
+    "is there any method to support multi image & queries at one time?",
+    "Could this be a bug in the compiled Gemma3ForConditionalGeneration_forward logic?",
+    "What is the correct way to fine-tune unsloth/gemma-3-12b-it with LoRA and gradient checkpointing without hitting this error?",
+    "Any fix or workaround is appreciated \ud83d\ude4f",
+    "anyone konws why? pls help",
+    "there may be a chance of false positives depending on the log level",
+    "this would be disabled by default but can be enabled within the GitHub extension",
+    "Automatically generated by Colab.",
+    "Commented out IPython magic to ensure Python compatibility.",
+    "nested params are lost",
+    "known limitations or problems they plan to address",
+    "in order to enable these models in general, we need an interface allowing us to build a torchtune tokenizer from an arbitrary Hugging Face hub upload",
+    "Azure OpenAI can only be setup in system default LLM Preference.",
+    "But I want to specify it for a single workspace and realize that it is not available in the drop down list.",
+    "\u4f46qwen3\u7684think\u5185\u5bb9\u53ea\u9488\u5bf9 **\u6700\u540e\u4e00\u4e2auser-message\u4e4b\u540e\u7684\u90a3\u4e9bai-message** \u624d\u62fc\u4e0a",
+    "\u56e0\u6b64\uff0c`process_data`\u4e2d\u83b7\u5f97\u7684`response_ranges`\u5728\u8fd9\u6837\u573a\u666f\u4e0b\u53ef\u80fd\u4e0d\u6b63\u786e",
+    "If Image Generation Engine is set to OpenAI or Gemini, that parameter is not included in the request",
+    "Sometimes the LLM gets carried away and writes gibberish for a long time.",
+    "Let's stop when we notice.",
+    "Accidentally clicking during a generation.",
+    "I don\u2019t have it in the application 'Web-Search integration with Chat and Document Q/A'",
+    "I don't have a function in my interface.",
+    "\"[address=0.0.0.0:45015, pid=5038] The decoder prompt (length 134492) is longer than the maximum model length of 50000. Make sure that `max_model_len` is no smaller than the number of text tokens.\"",
+    "the figures in the sarathi-serve are mismatched with the paper",
+    "Figure 8 in the paper is about llama2-70b and mistral-7b, while in the osdi-sarathi-serve folder it's about falcon180b",
+    "the experiment contents also look mismatched",
+    "Other figures and corresponding scripts also mismatch",
+    "all options are grayed out",
+    "The options are operable.",
+    "Some engines like ElasticSearch and OpenSearch take relatively longer to boot.",
+    "It would be nice to have the wait feature in-built in the benchmarking script.",
+    "Extra boilerplate \u2013 no one-liner equivalent to `instrument_fastapi()`.",
+    "Shallower context \u2013 fewer automatic fields (request/response metadata, status codes, deadlines, latencies, exceptions).",
+    "Dependency friction \u2013 Logfire currently requires `5 <= protobuf < 6`, but my gRPC stack is built on protobuf \u2265 6. Downgrading protobuf just to use Logfire is painful\u2014any workaround or plan to address this?",
+    "The index is created in './.ragatouille/colbert/indexes/index_name/' - how to choose this path?",
+    "It's at least not clear in the doc.",
+    "Having a name starting with '.' can be annoying, as you often do not see it",
+    "Not urgent but worth checking",
+    "We currently support LlamaIndex integration but are missing docs",
+    "Add missing docs to LlamaIndex",
+    "Update LlamaIndex docs with AgentOps latest patterns and screenshots",
+    "Add LlamaIndex support to our own docs",
+    "it's not make sense to let user install faiss/torch/onnxruntime etc.",
+    "we can utilize transformers utils `is_backend_avaliable` and `requires_backend` to dynamically import dependencies",
+    "the amax that is set during the calibration step doesnt take into consideration block_sizes",
+    "this results into following error",
+    "TypeError: SFTTrainer.__init__() got an unexpected keyword argument 'dataset_text_field'",
+    "Is there any method of fixing this issue?",
+    "Key Mismatch:",
+    "The original key in self.named_parameters() is 'model.layers.21.mlp.experts.w2_qweight'.",
+    "The processed key in the quantized weight file is 'model.layers.21.mlp.experts.w2_weight'.",
+    "Error Cause:",
+    "Manual-setup triggers require special treatment because the user has to get the webhook ingress URL and use it to manually set up the webhook in the platform of their choice.",
+    "Most of the mechanism is there (as implemented in #10167), but there is no UI to display the URL yet.",
+    "Also, we have some warnings that manual-setup webhooks are not supported that we need to remove.",
+    "ValueError(\"No results found\") breaks Ui",
+    "known limitations or problems they plan to address",
+    "make clickable vs. info buttons different color or otherwise styled differently",
+    "I saw relative code in github but no pgvector data in the https://qdrant.tech/benchmarks/",
+    "\u589e\u5927\u8fd9\u4e9b\u53c2\u6570,\u5e76\u4e0d\u4f1a\u51cf\u5c11 `Retrieval process` \u6240\u6d88\u8017\u7684\u65f6\u95f4",
+    "\u867d\u7136\u6bcf\u4e00\u6b21`Retrieval process` \u7684\u6570\u91cf\u4ece14\u51cf\u5c0f\u52304\uff0c\u4f46\u603b\u4f53\u65f6\u95f4\u5e76\u4e0d\u4f1a\u7f29\u77ed\uff0c\u4ecd\u4e3a1\u5c0f\u65f6\u5de6\u53f3",
+    "because in my organization we are using Python 3.13.",
+    "as per our internal policy we cannot downgrade or use another version of python.",
+    "sed -i 's/with HiddenPrints():/if True:/g'",
+    "sed -i 's/client='ANDROID_MUSIC'/client='ANDROID'/g'",
+    "sed -i s/17.31.35/19.08.35/g",
+    "sed -i s/17.33.2/19.08.35/g",
+    "sed -i s/5.16.51/6.40.52/g",
+    "sed -i s/5.21/6.41/g",
+    "sed -i s/pytubefixfix/pytubefix/g",
+    "sed -i s/Pytube/PytubeFix/g",
+    "sed -i s/PytubeFixFix/PytubeFix/g",
+    "sed -i s/Pytube/Pytubefix/g",
+    "sed -i 's/pytube>=15/pytube>=6/g'",
+    "\u6bcf\u6b21cv\u8868\u73b0\u6700\u597d\u7684\u5c31\u662f\u7b2c2\u8f6e",
+    "\u4ece\u7b2c3\u8f6e\u5f00\u59cb\uff0c\u8bad\u7ec3loss \u6301\u7eed\u4e0b\u964d\uff0c\u800c\u9a8c\u8bc1loss\u6301\u7eed\u4e0a\u5347",
+    "change to 1e-5 during sft",
+    "change to constantlr during sft",
+    "Query failed: 'NoneType' object is not iterable",
+    "Something went wrong: 'NoneType' object is not iterable",
+    "The behavior has also been observed on another machine using the official Flatpak.",
+    "The issue seems to be related to critical GTK errors, but no definitive confirmation has been established.",
+    "I am not sure whether this isn't user error",
+    "to reduce the probability of user error",
+    "despite me explicitly setting 'context=10' when creating the RAG pipeline",
+    "Did I make an error in setting up or applying the pipeline?",
+    "Is this a bug in the pipeline?",
+    "Currently, the harness raises an exception when used with 8-bit models",
+    "seems like a check is needed for every .to call",
+    "Seems to be deprecated and unused",
+    "brings a bit of confusion for starters",
+    "It would be good if we can add/modify this field as per default its not enabled.",
+    "Is there any way to do it on this current version manually?",
+    "Transformers and torch should be made optional to make the package lighter.",
+    "These can installed by user if needed.",
+    "the completions are often empty or contain very unreasonable results",
+    "I don't know which parameter might be incorrectly set",
+    "my following messages in the resulting thread are ignored by the bot.",
+    "sending messages in a thread does not even log anything.",
+    "the process is hung and not moving forward",
+    "Rerun this multiple times, still the same",
+    "Could someone please check or let me know if I'm missing somethin?",
+    "For some reason, it says that RAGatouille is not installed, when in reality I have installed it.",
+    "it tries to run the `CREATE EXTENSION IF NOT EXISTS vector`, which fails because it isn't the database superuser",
+    "I cannot do that in production",
+    "I want to avoid login problems.",
+    "I tried this but it is not working, how to debug it?",
+    "the app crashes",
+    "I thought it was an issue with flask and tried waitress",
+    "the problem persisted",
+    "the langchain usage in this localgpt api app can't handle async requests",
+    "it could possibly that the GPU is being ignored as `gpustack/detectors/nvidia_smi/nvidia_smi.py` is reporting 0MB for total memory due to `nvidia-smi` in the container only reporting memory details at the MIG device level and not for the top level of the GPU / physical level (it reports N/A or Insufficient Permissions)",
+    "uses deprecated `datasets.DownloadConfig.use_auth_token`",
+    "will break with datasets 3.0 release",
+    "the root cause is that `evaluate` uses `datasets.DownloadConfig.use_auth_token`, which was deprecated since datasets-2.14.0",
+    "Import Socket is timing out after 1 minute",
+    "Add session to all endpoints",
+    "accept session on all classes that use the database",
+    "Is there a possibility that this could use open source LLM?",
+    "OpenAi costs money and there are open source LLM's out there",
+    "Seems like it is correct in main branch docs.",
+    "Maybe there are the bugs for docs publishing?",
+    "can i by pass it plz?",
+    "this response is given by the bot to any request to the artist",
+    "It attempted to open a directory as a file and got stuck",
+    "But in the code (`libs/ktem/ktem/index/file/graph/pipelines.py`), I just found the `LocalSearchMixedContext`",
+    "It means that global or local options in kotaemon UI are useless at this moment right?",
+    "the model: `gpt-4` and `gpt-4-32k` does not exist",
+    "I made absolutely sure my local directory was updated to the latest version",
+    "local variable 'new_memories_with_actions' referenced before assignment",
+    "restrict access like the default role but still allow them to upload files",
+    "suboptimal solutions",
+    "temporary fixes",
+    "known limitations",
+    "technical shortcuts",
+    "areas needing future improvement",
+    "UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated.",
+    "this would be a bigger refactoring",
+    "it'd be better to save generations after each generation is done",
+    "offer restarting from previously unfinished generations",
+    "just leaving this here if someone is interested",
+    "Integrations SDK docs are generated via `mkdocs` and hosted via Netlify.",
+    "Use `mdxify` to generate API reference documentation for integration libraries and host them in Mintlify.",
+    "There are a couple places that use `hf_hub_download` instead of `cached_file`.",
+    "This should be switched to ensure models stored in local directories are supported.",
+    "My team had a very confusing time when `-m aws -s force` caused the IAM role of AutomlBenchmarkRole to be deleted and recreated",
+    "Could this be better documented?",
+    "All tools are disabled and need to be manually toggled on.",
+    "\u5e0c\u671b\u80fd\u591f\u652f\u6301\uff0c\u8c22\u8c22\uff01",
+    "Interestingly, the same functionality works correctly with OpenAI's function calling.",
+    "When an exception is raised in Azure OpenAI function calling, no response is emitted, causing the application to remain silent.",
+    "To address this issue, I implemented a solution in which any exception raised is explicitly emitted.",
+    "unexpected behavior in how HELM handles the prod_env directory",
+    "which seems to be auto-created and then overrides otherwise correct configurations",
+    "you only keep one `metric` while iterating over `metrics` (overwriting the previous `metric` in each loop)",
+    "replace the line above with:",
+    "init `d[m1][\"win_tie_loss\"][m2] = {}` at the same place as",
+    "I believe the same is required within crew base.",
+    "Failed to initialize MCP Adapter: Couldn't connect to the MCP server after 30 seconds",
+    "Currently, enabling batching in LitServe (by setting `max_batch_size` and `batch_timeout`) changes the expected implementation of the `predict` method in `LitAPI` subclasses.",
+    "This creates several issues:",
+    "The same API implementation behaves differently based on server configuration parameters.",
+    "Developers need to maintain different implementations or add conditional logic based on whether batching is enabled.",
+    "It violates the principle of separation of concerns - server configuration parameters should not affect the API contract.",
+    "Any chance you will provide a Docker container for ARM64 compatibility?",
+    "The main issue here is that TensorRT-LLM is not compatible with my ARM64 (aarch64) architecture.",
+    "we need to expose the `tenant` and `databaseName` fields to be configurable by the user",
+    "The following values were not passed to `accelerate launch` and had defaults used instead:",
+    "`--num_processes` was set to a value of `1`",
+    "`--num_machines` was set to a value of `1`",
+    "`--mixed_precision` was set to a value of `'no'`",
+    "`--dynamo_backend` was set to a value of `'no'`",
+    "To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.",
+    "Consider potential edge cases in email formats.",
+    "Ensure that validation does not significantly impact performance during high-concurrency situations.",
+    "Might be able to wrangle this into [a workshop paper at ICML]",
+    "we will probably have to check",
+    "I disabled it for now as it was not properly implemented.",
+    "The toggle should be moved to the users profile page/settings page and it should save the state to the users account.",
+    "we need to make sure every single page and UI element is updated correctly.",
+    "\u6211\u628atemplate\u4ecellava\u6362\u6210qwen2-vl\uff0c\u5e76\u66f4\u6362qwen model\u540e\u53ef\u4ee5\u6b63\u5e38\u5fae\u8c03\uff0c\u4f46\u662f\u4f7f\u7528llava\u5fae\u8c03\u9047\u5230\u5982\u4e0b\u62a5\u9519",
+    "RuntimeError: The size of tensor a (128) must match the size of tensor b (1698) at non-singleton dimension 4",
+    "\u5176\u6838\u5fc3\u903b\u8f91\u4e3a\u5747\u5300\u5206\u5e03\u9009\u62e9\u5c42",
+    "\u5219\u5e94\u4e3a",
+    "\u5728\u4e0a\u9762\u7b2c2\u6b65\u52a0\u4e86`--standalone` \u4e5f\u65e0\u6d4e\u4e8e\u4e8b",
+    "Hybrid-LLM\u73af\u5883\u4e0b\u53ef\u4ee5\u6b63\u5e38\u8fd0\u884c\uff0c\u4e0d\u8fc7\u4f3c\u4e4e\u6ca1\u6709\u8c03\u7528deepseek API",
+    "\u5728\u6a21\u578b\u670d\u52a1\u5546azure openai\u4e2d\u66f4\u65b0\u6a21\u578b\u5217\u8868\u4e5f\u6ca1\u6709\u6700\u65b0\u7684gpt-5",
+    "\u624b\u52a8\u6dfb\u52a0\u65f6\u6ca1\u6709\u6a21\u578b\u662f\u5426\u6709\u5185\u7f6e\u641c\u7d22\u5f15\u64ce\u7684\u9009\u9879",
+    "\u53ea\u80fd\u4f7f\u7528\u667a\u80fd\u8054\u7f51 \u5173\u95ed\u53ea\u80fd\u8054\u7f51\u540e\u4f1a\u8fd4\u56de504",
+    "Seems like when you train with this parameter, there's no evaluation stage after last training step.",
+    "Intuitively it should distribute evaluations in a such a way so the latest evaluating happens after last training step.",
+    "if there are ongoing sip phone calls using LiveKit Cloud WebSockets, those calls may get dropped when the pod handling them is shut down.",
+    "Is there a recommended way to handle this scenario gracefully?",
+    "Does LiveKit support session persistence mechanisms such as sticky sessions, session resumption, or any other strategy to prevent disruption during pod upgrades?",
+    "I\u2019m having trouble understanding why this constraint is necessary.",
+    "It seems counterintuitive for the actor and vllm model to share GPU resources.",
+    "when trying to prepare training data without mining hard negatives",
+    "it tries to set the min_rank for the miner but there is no miner",
+    "I find it muddy figuring out whether controlflow can handle both cases, or if I need prefect for for the former, and controlflow for the later.",
+    "I find the difference between the prefect core library flow and task decorators / functions, and the controlflow library flow and task decorators / definitions to be confusing to differentiate in documentation, and to implement when both are needed.",
+    "LLM code assistants also get totally confused and conflate both libraries, even when providing the docs as context.",
+    "the instruct2 call is that it doesn't really capture the characteristics of the prompt speech",
+    "the synthesized speech is wildly off the prompt speech characteristics",
+    "I can't make the complete switch to assist because I can't find the way to make the result of a script or automation that is not started from a device pronounced.",
+    "Do you know a way to achieve this using Assist?",
+    "It would be nice to have an ability to generate URLs that display records for a given `trace_id` using the usual UI.",
+    "wipes the conversation instead of handling the missing model gracefully",
+    "the columns allocated to each model's output are quite narrow",
+    "This significantly hinders the reading experience",
+    "the current layout of the model selection/switching elements at the top of the comparison view occupies considerable vertical screen real estate",
+    "This is NOT GOOD because that means our users cannot see the entire list of agents that are available on our platform.",
+    "invalid configuration error",
+    "known limitations or problems they plan to address",
+    "This version of the ONNX parser only supports TensorRT INetworkDefinitions with an explicit batch dimension.",
+    "The implicit batch dimension mode has been deprecated.",
+    "It would be helpful when returning to old chats to be able to see which model was used to generate a reply.",
+    "'CustomStreamWrapper' object is not subscriptable",
+    "this works fine",
+    "Any known issues or limitations when using Unsloth to fine-tune Med-Gemma 3 with QLoRA or LoRA?",
+    "Are there recommended configurations or examples for this use case?",
+    "I notice that this package publishes only source distributions, so that every user has to build the wheel themselves.",
+    "Better for package owners to build and publish wheels once and for all.",
+    "I did not find a workflow in this repository for publishing or I would have submitted a pull request.",
+    "Maybe this is already implemented? In which case the docs just need updating.",
+    "Currently trying to implement my own spec but the only thing I can do is check if hat been set and raise an exception.",
+    "Could we have the 'xxx ms per token' and 'xxx tokens per second' stats from the logs",
+    "Maybe a new node called 'stats' or so!",
+    "comand 'COMPLETION_MODEL=openrouter/deepseek/deepseek-r1 auto deep-research' does not work properly",
+    "\u65e0\u6cd5\u5c06\u201cCOMPLETION_MODEL=openrouter/deepseek/deepseek-r1\u201d\u9879\u8bc6\u522b\u4e3a c mdlet\u3001\u51fd\u6570\u3001\u811a\u672c\u6587\u4ef6\u6216\u53ef\u8fd0\u884c\u7a0b\u5e8f\u7684\u540d\u79f0",
+    "to automatically fix errors or have a kind of chat history",
+    "it could be helpful to have the console output visible to the LLM or at least a part of it (1-2k tokens)",
+    "Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model.",
+    "This will result in minor differences in outputs.",
+    "You'll still be able to use a slow processor with `use_fast=False`.",
+    "But what about alternatives to `GitHub`?",
+    "Would it be feasible to abstract the Repository/Tracker source, and use `Gitea` or `GitLab` instead?",
+    "Or is the entire design concept for `SWE-Agent` pinned to `GitHub` in some immutable way?",
+    "This trivial error should be easy to fix for the author of this python-file.",
+    "I was confused by the example.",
+    "If this confused me, it will likely confuse others, and may lead to more/duplicated github issues.",
+    "It seems that currently only CPU is used for interference on Mac.",
+    "It would be nice to support GPU accelerated inference for MacOS apple silicon chip.",
+    "As an unsafe, unsupported, undocumented workaround you can set the environment variable KMP_DUPLICATE_LIB_OK=TRUE to allow the program to continue to execute, but that may cause crashes or silently produce incorrect results.",
+    "I'm unsure what is causing the issue.",
+    "It may be related to the fact that txtai is installing torch-cpu and faiss-cpu despite my system having a GPU.",
+    "During the final step of handleChat execution, a WebSocket error will occur",
+    "who knows what the problem is",
+    "mapping.py since ... has been deprecated",
+    "Although ONNX has not released this change yet, I faced this trouble while quantizing a LLM to NVFP4 precision",
+    "AutoRound currently does not support numpy2x.",
+    "Option 1: Only one endpoint",
+    "Option 2: If both endpoints are used the values of the models should match",
+    "\u8fd9\u4e2a4090\u57283\u79d2\u5185\u751f\u6210\u7ed3\u675f\uff08\u5360\u7528\u738799%\uff09\uff0c5080\u898110\u79d2\uff08\u5360\u7528\u738724%\uff09",
+    "there are many inherent features in Open-WebUI that don't need to be reinvented in PrivateGPT",
+    "could be added as an extra parameter in the poetry install",
+    "with relatively low effort",
+    "However, in many models, there is no specified max_length, so max_length here is actually the default value as 20.",
+    "Therefore, when computing the ppl, the input text will be cut as long as the length exceeds 20, while 20 is too small for most cases.",
+    "I believe developers should fix this bug because perplexity is commonly used in text generation tasks.",
+    "Right now the health check endpoint returns 'ok' when all the processes has started.",
+    "There could be scenario when the LitAPI depends on another API/service (such as check if Ollama has pulled the model in background) and health-check need to account for the liveliness of that service too.",
+    "struggles to work (locate, click or perform any other actions) on dynamically loaded content",
+    "Currently, chunked prefill might not work with some features or models. If you encounter any issues, please disable chunked prefill by setting --enable-chunked-prefill=False.",
+    "its unable to make more than 1 tool call",
+    "the run status is completed and it returns the answer",
+    "returns a list instead of a tuple",
+    "But in the current project",
+    "not able to pass image to Agentflow",
+    "which i am not able to do current agentflow version",
+    "'file_paths' is a required property",
+    "'action_json' is a required property",
+    "Testing is currently very sparse.",
+    "It's essentially just ensuring model loading works properly (not tested in all cases yet)",
+    "This is an ongoing issue",
+    "Improve unit test coverage",
+    "Test every component of the data processing pipeline to ensure the training pipeline can be grown without breaking anything",
+    "Test model loading in a variety of circumstances",
+    "Just about anything else you can think of: it should be tested",
+    "most models raise NotImplemented",
+    "it is strictly opt-in to add quantization for particular models",
+    "Cuda out of memory issue when set dimension like dynamic degree, motion_smoothness, and subject consistency",
+    "ram allocation always reach 64 GB",
+    "The server socket has failed to listen on any local network address.",
+    "The server socket has failed to bind to [::]:50001 (errno: 98 - Address already in use).",
+    "The server socket has failed to bind to 0.0.0.0:50001 (errno: 98 - Address already in use).",
+    "AssertionError",
+    "assert not np_y_scale.shape or w32.shape[-1] == np_y_scale.shape[0]",
+    "The current loop for prompt, _, _ in prompts_dataset: expects 3 returned values, but the dataset's return signature was modified in recent commits, and the calling logic hasn't been updated to match the new return count.",
+    "This mismatch causes a runtime error.",
+    "an error occurs indicating that the generate method is missing in the actor class. This is likely due to a recent commit where the original generate method was removed, but the call in interactive_chat.py was not updated accordingly.",
+    "IndexError: string index out of range",
+    "I am getting dimensions mismatch when I use txtai 8.6.0 to index data with models having 2_Dense layer that has different in_features and out_features.",
+    "By default, index was created with the dimension of in_feature but the encoded vector is of dimension out_feature.",
+    "Does that mean models with 2_Dense layer is not yet supported?",
+    "the `rope_scaling` parameter is not being passed to vLLM when `fast_inference=True` is enabled",
+    "The `rope_scaling` parameter is not included in the `allowed_args` or `load_vllm_kwargs` parameters",
+    "This prevents the rope scaling configuration from being passed to the underlying vLLM engine",
+    "should show more information about the model, either as a tooltip (preferred) or via a link to the models page (need a href anchor)",
+    "should just be \u2018Model\u2019 for simplicity",
+    "should tooltip show the description based on the schema",
+    "would just drop all the train-test contamination stuff from the frontend since we\u2019re not consistently updating this",
+    "Right after the adapter specification, we should have a panel to display the key metrics (the same ones that are displayed on a results table - need to pull that out of the schema). This is the most important.",
+    "strong dislike for scrollbars, and I think the input box should be a lot bigger (scroll when we hit nearly a screen full of content)",
+    "could show all the information in a popup to save a click because right now you need to click expand to actually see the prompts",
+    "\u2018Details\u2019 doesn\u2019t show anything, so can just get rid of it.",
+    "it is the second time I encounter low results for specific models.",
+    "Are some models not technically feasible?",
+    "It appears this repo may only support ChatGPT via OpenAI tokens",
+    "\u521b\u5efa\u4e00\u4e2acsv\u6587\u4ef6\u628a\u7528\u6237\u540d\u548c\u5bf9\u5e94\u4f7f\u7528\u7684token\u50a8\u5b58\u5728\u672c\u5730\uff0c\u6bcf\u6b21response\u7684\u65f6\u5019\u66f4\u65b0",
+    "Provider 'authentik' is missing both `issuer` and `authorization` endpoint config. At least one of them is required.",
+    "it seems like the model parameters are not correctly loaded since the loss is as high as training from the beginning.",
+    "If I directly use `--resume_from_checkpoint XXX`, several errors may occur.",
+    "I tried to fix those errors by copying the model weights `mp_rank_00_model_states.pt` and the scheduler `scheduler.pt` from the input folder (LlamaFactory ckpt folder) to the output folder (deepspeed universal ckpt folder).",
+    "I found the loss is as high as training from scratch.",
+    "I further find that the loaded (universal checkpoint) model's weights are not the same as the Llamafactory's saved weights, even though I copied the `mp_rank_00_model_states.pt`.",
+    "dask seemed to still have issues, investigate and make sure we can run in parallel on the different benchmarks",
+    "the field depends_on is likely to pollute the experiment results as it's loading all dataclass fields into it. Let's investigate if we can store it as an attribute (i.e. not a dataclass field) this would be stored in the pickle but not be loaded in the pandas dataframe.",
+    "installing these dependencies can be quite trick",
+    "untangling `faiss` has been quite tricky",
+    "I will leave it for future",
+    "404 This is not a chat model and thus not supported in the v1/chat/completions endpoint.",
+    "Did you mean to use v1/completions?",
+    "How to turn off return of -- the verbose unstructured text",
+    "just Return the dict -> [{\"content\": ...",
+    "The inferrence speed is too slow",
+    "the GPU utilization is below 50%",
+    "the power usage is only 100+W, which is too low",
+    "\u597d\u50cf\u662fmax-token\u7684\u95ee\u9898\uff0c\u8fd9\u4e2a\u5728\u54ea\u8bbe\u7f6e\uff1f",
+    "tasks get queued and will run after the first task is completed",
+    "need to update requirenment.txt",
+    "The assert in get_std_err (inspect_result.py) is causing problems when reward are not integers",
+    "We might want to go for empirical std instead",
+    "or add an exception to switch to empirical std",
+    "it will switch from Tab0 to Tab1, and then a second later switch back to Tab0",
+    "It keeps switching back to the tab that was first active when the agent was started",
+    "Previous versions work just fine",
+    "Currently the Agents list in the Library is ordered based on time of last edit to an agent in the builder, instead this should be ordered by the time of last execution.",
+    "all executions should be counted, not just those manually triggered through the GUI.",
+    "max new token is different",
+    "I believe we should have a consistent MAX_NEW_TOKENS across the project",
+    "If it makes sense, I can create a PR to modify all of them",
+    "many were basically impossible for a skilled human to 'solve'",
+    "Mainly because the tasks were under specified wrt to the hidden test cases that determine passing.",
+    "The tests were checking implementation specific details from the repo\u2019s PR that weren't actually stated requirements of the task.",
+    "I'm unsure of what my last version was",
+    "Model STILL runs in my old text-generation-webui, just not the new one.",
+    "sometimes llm gives invalid pr format",
+    "Invalid PR info JSON",
+    "Future Improvements",
+    "Provide more detailed progress metrics.",
+    "Enhance error handling mechanisms for the cloning process.",
+    "the checkpoint you are trying to load has model type `llava_llama` but Transformers does not recognize this architecture.",
+    "This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.",
+    "\u8fd8\u662f\u4f1aOOM\uff0c\u9700\u8981\u6d88\u8017\u8fd9\u4e48\u591a\u8d44\u6e90\u5417\uff0c\u54ea\u91cc\u53ef\u4ee5\u4f18\u5316\u5462",
+    "I don\u2019t have enough GPU memory to keep the full model resident in fp16/bf16/fp8 during calibration.",
+    "Can I quantize Kimi\u2011K2\u20111T when VRAM is not enough?",
+    "Is layer/block\u2011wise calibration supported?",
+    "Any out\u2011of\u2011core/offload option to use CPU RAM/NVMe for weights/activations during calibration?",
+    "ZeroDivisionError: division by zero",
+    "any way to get support for XLM-RoBERTA, DeBERTA et similia models?",
+    "i see that there was another issue asking the same things, there were any progress since then?",
+    "it uses as much VRAM as the model's size.",
+    "So, all experts are loaded always.",
+    "It is understandable that citations are not included, at least for being compatible with OpenAI's spec.",
+    "Is it possible to enhance the API or provide another API for receiving the citation data, say based the returned id in the above API?",
+    "FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0.",
+    "Serialisation format is not specified. Defaulting to 'safetensors'. Your model might not work with this format.",
+    "Warning: No remote 'origin' in /opt/homebrew/Library/Taps/seal/homebrew-local-openfst-1.8.3, skipping update!",
+    "I wish we could support txt2img functions",
+    "I'm planning to support in following steps",
+    "\u53ef\u80fd\u518d\u4eff\u7167xmchat\uff0c\u63d0\u4f9bimg2img\uff08\u57ab\u56fe/\u91cd\u7ed8/\u8865\u753b\uff09\u529f\u80fd",
+    "\u672a\u6765\u9664\u4e86midjourney\u518d\u63a5\u5165\u5f00\u6e90stable-diffusion\u7684sdapi\uff08\u53ef\u8fdc\u7a0b\u4e5f\u53ef\u672c\u5730\u90e8\u7f72\uff09",
+    "Some of the models failed during benchmarking",
+    "Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0!",
+    "I would like to have a place for more serious modes and prompting/instruction concepts to be rated and grow.",
+    "Or at least a central repository for everyone's work that cares to share with a link from the Characters dropdown.",
+    "It's really add 2 parse external link content?",
+    "Get short description of www.blabla.ru/article.html",
+    "Does the number of GPU cards I have necessarily need to be no less than 40=18+18+18+18+4*2?",
+    "Does this configuration require a total of 5 nodes (each with 8 GPUs), summing up to at least 40 GPUs?",
+    "a proposal to improve the api of users",
+    "you can add the issuance of api key not only by the validity period by days, but add the use of the number of tokens??",
+    "\u8fd9\u4e2aserver.py\u751f\u6210\u7684\u97f3\u9891\u6709\u95ee\u9898",
+    "\u97f3\u9891\u4f4e\u6c89\u3002\u800c\u7528web.py\u7f51\u9875\u751f\u6210\u7684\u97f3\u9891\u5c31\u6b63\u5e38",
+    "It currently depends on the OpenTelemetry SDK causing problems if used in an already instrumented application.",
+    "The current implementation requires a lot of additional configuration that makes it harder to have tracing visibility.",
+    "This makes it troublesome to rotate the secrets quickly or keep the resource attribute consistent across NeMo guardrails and my application.",
+    "This suggests there might be an issue with how the command is handling the input or processing data internally. I need to investigate this further to understand the root cause of the error.",
+    "I need to change the Ollama URL for each workspace so that they can use independent Systems which have dedicated GPUs.",
+    "I am unable to do that now",
+    "If I set `per_device_train_batch_size `and `gradient_accumulation_steps `to 1, I can run normally.",
+    "The breaking change is introduced with trl==0.20.0",
+    "that's just a lot of extra unnecessary work",
+    "the process of identifying which methods or functions need refactoring",
+    "understanding their dependencies and potential impact on the overall software",
+    "enhance code generation agent's ability to perform advanced code refactoring",
+    "improving its capability to analyze code, identify refactor opportunities, and understand the implications of those changes",
+    "Criteo1tb OOMs during eval for some third party training algorithms in PyTorch.",
+    "We're exploring reducing the criteo1tb eval bsz on both JAX and PyTorch.",
+    "I was on an old version of Letta when all this started to happen",
+    "could not get model list, only the model that I had loaded in the system was working",
+    "the only slight change I made was when Ollama updated to allow storing models on a different drive",
+    "it would be nice to have simple way of updating to newer versions of Letta",
+    "We\u2019re stuck on how to feed that final DTMF string (123456) into the system so it behaves exactly like a user\u2019s speech transcription result.",
+    "Let us know if there\u2019s a recommended approach or workaround in the meantime.",
+    "When I deploy on Render, there is only one way to input pdf data.",
+    "When I have so many pdf files, there is only one way to input individual files.",
+    "Currently at my system it takes about 5s to start.",
+    "I am sure that only small subset of all features are used for simple cases.",
+    "May be it's possible not to load all that huge megabytes at once, but only when really needed.",
+    "I just want you to know that for some use cases startup time may be critical.",
+    "NeMo guardrails don't work as they should with the most vanilla case for fact checking.",
+    "Does anyone else has those problems and when it the gpt-4o model predicted to be working for fact checking?",
+    "something in the requirements is wrong",
+    "I renamed the config-user.yaml file, but it didn't help",
+    "A way to make sure the current master branch can be deployed without any errors on the most common architecture/OS",
+    "Setting ds_accelerator to cuda (auto detect)",
+    "df: \"/home/guochenchen/.triton/autotune\": \u6ca1\u6709\u90a3\u4e2a\u6587\u4ef6\u6216\u76ee\u5f55",
+    "WARNING: command error: '[Errno 13] Permission denied: '/home/guochenchen''!",
+    "DeprecationWarning: PyPDF2 is deprecated. Please move to the pypdf library instead.",
+    "I think to build a docker image would not be hard.",
+    "this image builf from huggingface is giving me the following log:",
+    "THIS IMAGE IS DEPRECATED and is scheduled for DELETION.",
+    "model inference is pretty slow",
+    "This action can take a few minutes!"
+  ],
+  "acknowledgment_patterns": [],
+  "debt_types": {
+    "implementation": 236,
+    "configuration": 60,
+    "performance": 40,
+    "design": 10,
+    "documentation": 5,
+    "configuration, design": 1,
+    "performance, implementation": 1,
+    "implementation, design": 2,
+    "implementation, performance": 1,
+    "configuration, implementation": 1
+  },
+  "who_admits": {
+    "issue author": 353,
+    "issue author (@pseudotensor)": 1,
+    "contributor": 1,
+    "Antoine (issue author)": 1,
+    "Issue author": 1
+  },
+  "language_indicators": [
+    [
+      "could add support",
+      "similarly to what Triton server supports"
+    ],
+    [
+      "do not support",
+      "cannot receive",
+      "must build and maintain"
+    ],
+    [
+      "\u51fa\u73b0\u4e86",
+      "\u663e\u793a",
+      "\u957f\u5ea6\u4e0d\u4e00\u81f4",
+      "\u8bf7\u95ee\u600e\u4e48\u529e\uff1f"
+    ],
+    [
+      "\u6709\u6982\u7387",
+      "\u76f4\u63a5\u590d\u5236",
+      "\u4e0d\u4f1a\u51fa\u73b0"
+    ],
+    [
+      "should be updated",
+      "current test is raising",
+      "workaround"
+    ],
+    [
+      "does not have all the necessary fields"
+    ],
+    [
+      "significant memory inefficiency",
+      "inefficient token-level duplication",
+      "exponential memory issues"
+    ],
+    [
+      "error",
+      "cannot load",
+      "no such file",
+      "cannot create"
+    ],
+    [
+      "I'm poking through the codebase",
+      "not sure if it's helpful",
+      "not super familiar with the codebase yet"
+    ],
+    [
+      "this might be a toy run",
+      "no icl pairs will ever be added to the prompt"
+    ],
+    [
+      "When someone tries to",
+      "are not being copied"
+    ],
+    [
+      "may not be that easy",
+      "some kind of additional binary",
+      "wraps the default Lambda handler"
+    ],
+    [
+      "encounter the exception",
+      "JSONDecodeError",
+      "suboptimal solutions or temporary fixes"
+    ],
+    [
+      "requires",
+      "but found",
+      "is deprecated",
+      "will be removed"
+    ],
+    [
+      "what if",
+      "we should provide",
+      "we are in need of"
+    ],
+    [
+      "it's not clear",
+      "there is not clear guidance",
+      "makes it difficult",
+      "doesn't directly state"
+    ],
+    [
+      "I had to figure out",
+      "I can not define/test",
+      "should either remember last one or allow removal",
+      "defaults to that even if another (url based) local server is defined"
+    ],
+    [
+      "currently it takes",
+      "hard to read",
+      "it would be great if we could improve that"
+    ],
+    [
+      "Everything was working, including with vLLM, before updating to the latest release.",
+      "infinitely blocks"
+    ],
+    [
+      "really annoying",
+      "suggest we enclose",
+      "to keep the doc reader-friendly and simple"
+    ],
+    [
+      "Not sure if this is related to",
+      "changes to /v1 API handling"
+    ],
+    [
+      "I found that in the diagram",
+      "However, when I use this code base",
+      "Strangely, I was managed to reproduce"
+    ],
+    [
+      "encountering a TypeError",
+      "preventing the tool from functioning",
+      "specific error message observed",
+      "Error executing function"
+    ],
+    [
+      "I can't find",
+      "I want",
+      "I want the console log to be the same"
+    ],
+    [
+      "when set the local succeed",
+      "still the OpenAI Key"
+    ],
+    [
+      "should get the current changes",
+      "not reflected in the currently open OpenWebUI session",
+      "have to manually refresh"
+    ],
+    [
+      "there can be more simple and more resource thoughtful way",
+      "should be option",
+      "still works pretty bad",
+      "this is what stopping us"
+    ],
+    [
+      "shows OOM problem",
+      "no matter how I change",
+      "try setting PYTORCH_CUDA_ALLOC_CONF"
+    ],
+    [
+      "As a starting point",
+      "could be useful",
+      "let me know if you have feedback",
+      "if there could be other more useful abstractions"
+    ],
+    [
+      "incorrectly given the parameters",
+      "causes the parent flow run to complete successfully on retry eventhough some failed subflows were not actually retried"
+    ],
+    [
+      "still hasn't been resolved",
+      "might overfit",
+      "Optional now!"
+    ],
+    [
+      "\u6ca1\u6709\u4f7f\u7528\u5b98\u65b9\u7ed9\u7684\u811a\u672c",
+      "\u529f\u80fd\u6b63\u5e38 \u4f46\u662f\u5728\u77e5\u8bc6\u5e93\u529f\u80fd\u4e2d \u65b0\u4e0a\u4f20txt\u6587\u4ef6\u540e \u65e0\u6cd5\u5728\u7ebf\u9884\u89c8"
+    ],
+    [
+      "I would like to have an option",
+      "This would work very similarly to",
+      "PLEASE reconsider."
+    ],
+    [
+      "does not match",
+      "I understand to be",
+      "mentioned in"
+    ],
+    [
+      "seems to save incorrect",
+      "performs poorly",
+      "training parameters are identical"
+    ],
+    [
+      "Why is ... like this?",
+      "How is ... computed?",
+      "shouldn't it be ...?",
+      "Is ... the result of ...?"
+    ],
+    [
+      "Looks like while installing dependencies",
+      "conflicts with the installation",
+      "returned a non-zero code"
+    ],
+    [
+      "WARNING:",
+      "can result in broken permissions and conflicting behaviour",
+      "recommended to use a virtual environment instead"
+    ],
+    [
+      "NOT provided",
+      "Pass in the LLM provider",
+      "You passed model"
+    ],
+    [
+      "workaround",
+      "I am going to try",
+      "I think it would be really useful"
+    ],
+    [
+      "would it make sense to add",
+      "as I did it manually"
+    ],
+    [
+      "\u53d1\u73b0\u7684",
+      "\u4e0d\u8db3"
+    ],
+    [
+      "dropped support",
+      "won't work anymore"
+    ],
+    [
+      "best approach",
+      "without hindering",
+      "current architecture"
+    ],
+    [
+      "I think",
+      "will be highly beneficial",
+      "we won't be limited"
+    ],
+    [
+      "ValueError: Can not map tensor",
+      "raise ValueError"
+    ],
+    [
+      "encountered an error during execution",
+      "the error originates from line",
+      "known limitations or problems they plan to address"
+    ],
+    [
+      "noticed a process leak",
+      "might impact the benchmark result",
+      "becomes unresponsive",
+      "consume a significant amount of CPU time"
+    ],
+    [
+      "\u65e0\u6cd5\u8fde\u63a5",
+      "\u5e0c\u671b...\u53ef\u6b63\u5e38\u8fde\u63a5",
+      "\u62a5\u9519\u5982\u4e0b"
+    ],
+    [
+      "Missing",
+      "prompts dialog",
+      "start window decorations"
+    ],
+    [
+      "failed to import",
+      "use WeTextProcessing instead",
+      "Repo id must use alphanumeric chars",
+      "forbidden",
+      "max length is 96"
+    ],
+    [
+      "Has anyone ever faced similar issue?",
+      "Is it okay to ingest such amount of data?",
+      "Is it really possible to avoid SQLite restrictions?"
+    ],
+    [
+      "KeyError",
+      "The above exception was the direct cause of the following exception"
+    ],
+    [
+      "but got error",
+      "successfully got the result",
+      "size mismatch for bias"
+    ],
+    [
+      "underscores the need for",
+      "ongoing refinement",
+      "rigorous testing"
+    ],
+    [
+      "Error when Indexing",
+      "This can take a long time"
+    ],
+    [
+      "currently quite hidden",
+      "Expose this publicly"
+    ],
+    [
+      "lacks clear and informative log messages",
+      "may find it challenging to understand",
+      "improve the logging mechanism",
+      "enhanced logging will improve transparency"
+    ],
+    [
+      "original prompt",
+      "attacked prompt",
+      "score",
+      "PDR"
+    ],
+    [
+      "Currently",
+      "could be optimised",
+      "independently",
+      "combines the results",
+      "pushes all of this computation"
+    ],
+    [
+      "shortcut",
+      "suboptimal solutions",
+      "temporary fixes"
+    ],
+    [
+      "Client Error: Unauthorized",
+      "Traceback (most recent call last)",
+      "raise HTTPError(http_error_msg, response=self)"
+    ],
+    [
+      "isn't always as specified",
+      "this is more the case for",
+      "it's uncommon to have",
+      "this is helpful for me when benchmarking"
+    ],
+    [
+      "takes forever",
+      "already 186s / 30.9s and counting"
+    ],
+    [
+      "forked and implemented",
+      "Ideally we'd contribute back",
+      "maintaining a fork"
+    ],
+    [
+      "began to give errors",
+      "getting the following errors"
+    ],
+    [
+      "should generate random seed",
+      "creates the same loss curve and metrics",
+      "may be caused by"
+    ],
+    [
+      "I want to call either",
+      "I didn't find any",
+      "I don't want to add a redundant Agent"
+    ],
+    [
+      "version mismatch",
+      "might lead to errors or unexpected behavior"
+    ],
+    [
+      "monkey-patch",
+      "seems very ugly",
+      "cleaner way",
+      "native support for finetuning classification models would be great"
+    ],
+    [
+      "We should transition",
+      "we should still support"
+    ],
+    [
+      "\u6839\u636edebug\u65f6",
+      "\u67e5\u627e\u5230",
+      "\u901a\u8fc7\u67e5\u770b",
+      "\u7ed3\u5408\u672c\u4eba\u7684\u7406\u89e3",
+      "\u4fee\u6539\u7684",
+      "\u81ea\u5df1\u6dfb\u52a0\u4e86"
+    ],
+    [
+      "does not match",
+      "not present",
+      "not working",
+      "the tool is skipped"
+    ],
+    [
+      "issues found",
+      "cannot access local variable",
+      "Backward Compatibility"
+    ],
+    [
+      "I would like to rework",
+      "Consider whether",
+      "we have a lot of"
+    ],
+    [
+      "means creating sharded datasets for each tokenizer which uses up a lot of disk space",
+      "seems to solve the disk usage issue but leads to massively decreased throughput",
+      "degrading the training stability",
+      "perplexity goes all over the place instead of gradually decreasing",
+      "Is there a way to combine the best of both worlds"
+    ],
+    [
+      "I made the adjustment",
+      "Connection refused",
+      "How to debug/resolve this issue?"
+    ],
+    [
+      "\u76ee\u524d\u5df2\u77e5\u53ea\u6709",
+      "\u60f3\u5728\u4e0d\u767b\u9646\u7684\u72b6\u6001\u4e0b\u4e5f\u53ef\u4ee5\u5b9e\u73b0",
+      "\u662f\u5426\u53ef\u4ee5\u901a\u8fc7"
+    ],
+    [
+      "I'm not entirely sure",
+      "obviously"
+    ],
+    [
+      "Adding (1) setup scripts to image build repo",
+      "git reset --hard",
+      "chmod -R 777"
+    ],
+    [
+      "Is it good way",
+      "should I change something"
+    ],
+    [
+      "broken",
+      "might want to",
+      "make sure"
+    ],
+    [
+      "unsure how to integrate"
+    ],
+    [
+      "just use the same Postgres instance",
+      "no need to instantiate/install another database"
+    ],
+    [
+      "\u7ed3\u679c\u4e0e\u62a5\u544a\u7684\u6027\u80fd\u76f8\u5dee\u5f88\u5927",
+      "\u53ef\u4ee5\u544a\u8bc9\u6211\u662f\u54ea\u91cc\u8bbe\u7f6e\u9519\u8bef\u4e86\u5417"
+    ],
+    [
+      "weird that setting a result_storage creates a side effects",
+      "seems like a bug to me"
+    ],
+    [
+      "This is fixed by adding",
+      "scores were visibly computed at least once using default (bf32) settings"
+    ],
+    [
+      "you need to install the following dependencies",
+      "nice missing dependency error message early on"
+    ],
+    [
+      "Warning: Cannot load",
+      "Warning: Cannot polyfill",
+      "DeprecationWarning"
+    ],
+    [
+      "I suspect that...",
+      "Is that possible to...",
+      "I tried to set... however..."
+    ],
+    [
+      "Currently, the only option is",
+      "This is a problem when"
+    ],
+    [
+      "aims to",
+      "needs to",
+      "should calculate",
+      "before proceeding"
+    ],
+    [
+      "My guess is that",
+      "could this be the cause of the issue?"
+    ],
+    [
+      "needs to be improved",
+      "should be added",
+      "can always be manually set"
+    ],
+    [
+      "famous last words"
+    ],
+    [
+      "Something went wrong",
+      "It shouldn't be",
+      "most probably not that"
+    ],
+    [
+      "I think this can be implemented like:",
+      "create test similarly to"
+    ],
+    [
+      "Enable using",
+      "allows us to utilize",
+      "can be deployed as"
+    ],
+    [
+      "causes endless loop",
+      "strict recovery is enabled"
+    ],
+    [
+      "we can figure out the details of cloud storage later",
+      "removes the technical hurdles",
+      "easily put Axolotl to work"
+    ],
+    [
+      "not memory getting saved",
+      "Am I doing something wrong here?"
+    ],
+    [
+      "It would be a great feature",
+      "prefer using aws infra for obvious reasons"
+    ],
+    [
+      "ValueError: Requested tokens exceed context window",
+      "threshold under the hood",
+      "appears only to happen after at least 3 queries"
+    ],
+    [
+      "claims to be better than",
+      "a few code tools"
+    ],
+    [
+      "\u62a5\u9519\u8bf4\u4e0d\u80fdappend\u4e00\u4e2a\u5b57\u5178",
+      "\u6211\u5c31\u6539\u6210\u4e86",
+      "\u6211\u8bd5\u7740\u5c06\u62a5\u9519\u8bed\u53e5\u6539\u4e3a"
+    ],
+    [
+      "hangs",
+      "don't match"
+    ],
+    [
+      "does NOT exist",
+      "is a workaround",
+      "effectively no longer available"
+    ],
+    [
+      "ValueError",
+      "has to be a strictly positive float",
+      "otherwise your next token scores will be invalid"
+    ],
+    [
+      "failed to load",
+      "can run in colab with H100 GPU"
+    ],
+    [
+      "wasn't particularly stable",
+      "can\u2019t effectively control",
+      "wondering if you might consider adding this feature"
+    ],
+    [
+      "None of ... have been found",
+      "Models won't be available",
+      "only tokenizers, configuration and file/data utilities can be used"
+    ],
+    [
+      "Fix Error",
+      "Accuracy Tests",
+      "Multi-Label Classification"
+    ],
+    [
+      "\u4e0d\u652f\u6301bf16",
+      "\u5f97\u5230\u4e86\u8fd9\u4e2aerror"
+    ],
+    [
+      "we will work on",
+      "polishing up",
+      "expensive and resource-intensive",
+      "known limitations",
+      "temporary fixes"
+    ],
+    [
+      "UserWarning",
+      "RuntimeWarning",
+      "defaulting to"
+    ],
+    [
+      "Is there any known limitation",
+      "Does LiveKit drop audio input",
+      "How can I allow the assistant to finish speaking but still capture what the user said afterward"
+    ],
+    [
+      "\u5b58\u5728",
+      "\u5bfc\u81f4",
+      "\u663e\u8457\u4e0d\u540c",
+      "\u4f53\u9a8c\u5341\u5206\u5272\u88c2"
+    ],
+    [
+      "cannot really use",
+      "need so much VRAM",
+      "Is this to be expected?",
+      "Can this somehow be mitigated?"
+    ],
+    [
+      "isn't enough to change",
+      "I'm ok if errors happen",
+      "new models don't work properly"
+    ],
+    [
+      "\u8fd9\u901a\u5e38\u662f\u7531\u4e8e ... \u5f15\u8d77\u7684\u3002",
+      "\u56e0\u6b64\u8fd9\u4e2a\u95ee\u9898\u603b\u7684\u6765\u8bf4\u662f ..."
+    ],
+    [
+      "This can cause many duplicates",
+      "I would have expected similar file treatment",
+      "known limitations or problems they plan to address"
+    ],
+    [
+      "Does not pass the arg",
+      "here"
+    ],
+    [
+      "but it is unusable",
+      "best way to do that is likely by adding additional if-clause"
+    ],
+    [
+      "seems when",
+      "we need to be able to",
+      "hence the conversation goes on as a loop"
+    ],
+    [
+      "seems not to be useful",
+      "limiting the graphs usefulness"
+    ],
+    [
+      "I need to delete the newly created docker work pool",
+      "create a new one",
+      "so I can add the Docker Registry Credentials"
+    ],
+    [
+      "doesn't work",
+      "always found this errors",
+      "how can I make it work correctly"
+    ],
+    [
+      "Currently, there are scenarios where...",
+      "The following issues have been identified.",
+      "This work will address these issues..."
+    ],
+    [
+      "might be a source of issues",
+      "it would be very nice if"
+    ],
+    [
+      "not an iterable",
+      "always get this error"
+    ],
+    [
+      "no output is shown",
+      "is indeed being used and charged",
+      "just not shown in the terminal"
+    ],
+    [
+      "Currently we return",
+      "would need to know details",
+      "Perhaps we need to introduce",
+      "This would require"
+    ],
+    [
+      "the problem seems to be",
+      "To fix this you could try to"
+    ],
+    [
+      "Error compiling",
+      "undeclared name",
+      "did not run successfully"
+    ],
+    [
+      "creates database records with missing display names",
+      "duplicate entries",
+      "phantom models",
+      "disabled states",
+      "requiring manual SQL intervention"
+    ],
+    [
+      "is added as a string",
+      "resulting in",
+      "when conversation turn ends"
+    ],
+    [
+      "Looking at the code",
+      "Commenting out this line solves the issue"
+    ],
+    [
+      "seems to be disregarded",
+      "seems to loop",
+      "crash"
+    ],
+    [
+      "I realised Id personally like",
+      "features",
+      "functionality",
+      "which moves view to that block"
+    ],
+    [
+      "encountering an error",
+      "causing a ... RemoteError",
+      "resulting in the server going down"
+    ],
+    [
+      "it would be useful to introduce",
+      "allow for use cases where data types are variable"
+    ],
+    [
+      "I am not sure",
+      "maybe it's just my personal operation"
+    ],
+    [
+      "Heads up",
+      "I previously ran into an issue",
+      "Supposedly fixed",
+      "not sure it makes sense",
+      "twice the number of instances necessary"
+    ],
+    [
+      "Currently, when `compute` is called all data is loaded into memory",
+      "This can pose a bottleneck",
+      "As an alternative we could pass a generator"
+    ],
+    [
+      "it seems that",
+      "require non-trivial evaluation process/implementation",
+      "may lack motivation/significance"
+    ],
+    [
+      "first of several test features",
+      "determine which is the best"
+    ],
+    [
+      "but another process is utilizing it.",
+      "Please specify a different port",
+      "you can set this to `0`."
+    ],
+    [
+      "I wonder if",
+      "I appreciate any suggestions",
+      "before I spend more time on it"
+    ],
+    [
+      "Please help",
+      "What I do wrong?",
+      "returns",
+      "No such file or directory"
+    ],
+    [
+      "modified the GLUE code",
+      "current score of the output is always 0",
+      "want to know why"
+    ],
+    [
+      "doesn't seem to be compatible",
+      "consider locking the version temporarily"
+    ],
+    [
+      "not possible to change",
+      "hardcoded",
+      "not passed on",
+      "fixes the issue"
+    ],
+    [
+      "Let's add",
+      "so I don't have to type 'continue' over and over"
+    ],
+    [
+      "need to be made",
+      "update",
+      "replace"
+    ],
+    [
+      "can lead to a sprawl of deployments",
+      "hard to grok and easy to mess up",
+      "relationship to the child infra-dependent flows is very decoupled",
+      "execution of the parent flow brittle to changes",
+      "highly likely that ... will fail if called directly",
+      "cannot enforce that dependency"
+    ],
+    [
+      "validation errors",
+      "breaks API"
+    ],
+    [
+      "I'm not sure what to look at next to debug this."
+    ],
+    [
+      "Need to make sure",
+      "don't break"
+    ],
+    [
+      "throws a `ValueError`",
+      "contradicts the expected behavior",
+      "should return an empty dictionary"
+    ],
+    [
+      "setting batch size to 1",
+      "should change to"
+    ],
+    [
+      "\u51fa\u73b0...\u95ee\u9898",
+      "\u662f\u5426\u6709\u529e\u6cd5...",
+      "\u9884\u52a0\u8f7d\u539f\u59cb\u6a21\u578b\u6743\u91cd\u65f6\u51fa\u73b0"
+    ],
+    [
+      "I manually generate the code solution",
+      "It shows: AssertionError: Missing problems in samples",
+      "When I run without docker: ... I got the correct answer."
+    ],
+    [
+      "is used but incompatible",
+      "please install"
+    ],
+    [
+      "need to add",
+      "only uses",
+      "should",
+      "reuse"
+    ],
+    [
+      "is deprecated",
+      "for compatibility"
+    ],
+    [
+      "should make ... optional",
+      "sometimes queries do not return any results"
+    ],
+    [
+      "can only input **one image** at one time",
+      "is there any method to support multi image & queries at one time?"
+    ],
+    [
+      "Could this be a bug",
+      "What is the correct way",
+      "Any fix or workaround is appreciated"
+    ],
+    [
+      "anyone konws why? pls help"
+    ],
+    [
+      "there may be a chance of",
+      "this would be disabled by default"
+    ],
+    [
+      "Automatically generated",
+      "Commented out"
+    ],
+    [
+      "lost when going from",
+      "known limitations or problems"
+    ],
+    [
+      "we need an interface",
+      "allowing us to build",
+      "in order to enable"
+    ],
+    [
+      "can only be setup",
+      "want to specify",
+      "realize that it is not available"
+    ],
+    [
+      "\u5904\u7406\u662f\u6839\u636e...\u8ba1\u7b97\u51fa\u8d77\u59cbidx",
+      "\u53ef\u80fd\u4e0d\u6b63\u786e"
+    ],
+    [
+      "not included in the request",
+      "should be sent in the request"
+    ],
+    [
+      "gets carried away",
+      "writes gibberish",
+      "let's stop when we notice",
+      "accidentally clicking"
+    ],
+    [
+      "I don\u2019t have it",
+      "I don't have a function",
+      "How can I enable these additional features?"
+    ],
+    [
+      "The decoder prompt (length 134492) is longer than the maximum model length of 50000.",
+      "Make sure that `max_model_len` is no smaller than the number of text tokens."
+    ],
+    [
+      "mismatched",
+      "look mismatched",
+      "also mismatch"
+    ],
+    [
+      "not closed",
+      "all options are grayed out",
+      "expected to happen"
+    ],
+    [
+      "take relatively longer to boot",
+      "would be nice to have"
+    ],
+    [
+      "I have to hand-roll interceptors and sprinkle `logfire.info` / `logfire.error` calls",
+      "no one-liner equivalent",
+      "fewer automatic fields",
+      "Downgrading protobuf just to use Logfire is painful",
+      "any workaround or plan to address this?"
+    ],
+    [
+      "not clear in the doc",
+      "can be annoying"
+    ],
+    [
+      "Not urgent but worth checking"
+    ],
+    [
+      "missing docs",
+      "add missing docs",
+      "update docs",
+      "add support"
+    ],
+    [
+      "it's not make sense",
+      "we can utilize",
+      "dynamically import dependencies"
+    ],
+    [
+      "doesnt take into consideration",
+      "results into following error"
+    ],
+    [
+      "unexpected keyword argument",
+      "Is there any method of fixing this issue?"
+    ],
+    [
+      "Key Mismatch:",
+      "Error Cause:",
+      "the code attempts to access param = params_dict[name], but the name from the weight file does not exist in params_dict"
+    ],
+    [
+      "require special treatment",
+      "there is no UI to display",
+      "warnings that manual-setup webhooks are not supported"
+    ],
+    [
+      "breaks",
+      "No results found",
+      "known limitations"
+    ],
+    [
+      "make ... different color",
+      "styled differently"
+    ],
+    [
+      "I saw relative code",
+      "but no pgvector data"
+    ],
+    [
+      "\u6211\u6ce8\u610f\u5230",
+      "\u4f3c\u4e4e",
+      "\u5e76\u4e0d\u4f1a",
+      "\u867d\u7136",
+      "\u4ecd\u4e3a"
+    ],
+    [
+      "cannot downgrade",
+      "internal policy"
+    ],
+    [
+      "sed -i",
+      "s/old_value/new_value/g",
+      "temporary fixes",
+      "workarounds"
+    ],
+    [
+      "\u603b\u662f\u5931\u8d25",
+      "\u6bcf\u6b21cv\u8868\u73b0\u6700\u597d\u7684\u5c31\u662f",
+      "\u6301\u7eed\u4e0b\u964d\uff0c\u800c\u9a8c\u8bc1loss\u6301\u7eed\u4e0a\u5347",
+      "change to"
+    ],
+    [
+      "Query failed",
+      "Something went wrong"
+    ],
+    [
+      "seems to be related to",
+      "no definitive confirmation has been established"
+    ],
+    [
+      "I am not sure",
+      "to reduce the probability of user error",
+      "explicitly setting",
+      "Did I make an error",
+      "Is this a bug"
+    ],
+    [
+      "raises an exception",
+      "seems like a check is needed",
+      "suggestions"
+    ],
+    [
+      "deprecated",
+      "unused",
+      "brings a bit of confusion"
+    ],
+    [
+      "It would be good if",
+      "Is there any way to do it",
+      "as per default its not enabled"
+    ],
+    [
+      "should be made optional",
+      "to make the package lighter",
+      "can installed by user if needed"
+    ],
+    [
+      "often empty or contain very unreasonable results",
+      "I don't know which parameter might be incorrectly set"
+    ],
+    [
+      "ignored by the bot",
+      "does not even log anything"
+    ],
+    [
+      "the process is hung",
+      "not moving forward",
+      "Rerun this multiple times",
+      "Could someone please check or let me know if I'm missing somethin?"
+    ],
+    [
+      "For some reason",
+      "when in reality I have installed it"
+    ],
+    [
+      "fails because it isn't the database superuser",
+      "I cannot do that in production"
+    ],
+    [
+      "I want to avoid login problems.",
+      "I tried this but it is not working"
+    ],
+    [
+      "crashes the app",
+      "thought it was an issue",
+      "problem persisted",
+      "can't handle async requests"
+    ],
+    [
+      "it could possibly",
+      "reporting 0MB for total memory",
+      "not for the top level of the GPU / physical level",
+      "Insufficient Permissions"
+    ],
+    [
+      "uses deprecated",
+      "will break",
+      "deprecated since"
+    ],
+    [
+      "timing out",
+      "after 1 minute"
+    ],
+    [
+      "Add",
+      "accept",
+      "all endpoints",
+      "all classes"
+    ],
+    [
+      "Is there a possibility",
+      "could use",
+      "costs money",
+      "there are open source LLM's out there"
+    ],
+    [
+      "Seems like",
+      "Maybe there are"
+    ],
+    [
+      "bypass",
+      "the issue is the connexion to HF"
+    ],
+    [
+      "something went wrong",
+      "this response is given",
+      "any request"
+    ],
+    [
+      "attempted to open a directory as a file",
+      "got stuck"
+    ],
+    [
+      "I just found",
+      "It means that",
+      "are useless at this moment"
+    ],
+    [
+      "does not exist",
+      "made absolutely sure",
+      "latest version"
+    ],
+    [
+      "referenced before assignment",
+      "encountered an issue",
+      "error message states"
+    ],
+    [
+      "want to be able to",
+      "still allow"
+    ],
+    [
+      "acknowledge",
+      "plan to address",
+      "workarounds",
+      "needing future improvement"
+    ],
+    [
+      "UserWarning",
+      "deprecated",
+      "Support for replacing an already imported distutils is deprecated."
+    ],
+    [
+      "would be better",
+      "bigger refactoring",
+      "if it's interrupted or sth"
+    ],
+    [
+      "current behavior",
+      "proposed behavior",
+      "use ... to"
+    ],
+    [
+      "should be switched",
+      "instead of"
+    ],
+    [
+      "confusing time",
+      "could this be better documented"
+    ],
+    [
+      "need to be manually toggled on"
+    ],
+    [
+      "\u5e0c\u671b\u80fd\u591f\u652f\u6301",
+      "\u65e0\u6cd5\u4f7f\u7528"
+    ],
+    [
+      "fails during function calling",
+      "no response is emitted",
+      "I implemented a solution",
+      "allows my code to"
+    ],
+    [
+      "unexpected behavior",
+      "overrides otherwise correct configurations"
+    ],
+    [
+      "you only keep one `metric`",
+      "overwriting the previous `metric`",
+      "replace the line above with",
+      "init ... at the same place as"
+    ],
+    [
+      "I believe the same is required",
+      "default timeout of 30 seconds",
+      "Failed to initialize MCP Adapter"
+    ],
+    [
+      "Currently, enabling batching... changes the expected implementation",
+      "This creates several issues",
+      "Developers need to maintain different implementations",
+      "It violates the principle of separation of concerns"
+    ],
+    [
+      "Any chance you will provide",
+      "not compatible with"
+    ],
+    [
+      "we need to",
+      "to be configurable"
+    ],
+    [
+      "The following values were not passed",
+      "had defaults used instead",
+      "To avoid this warning pass in values for each of the problematic parameters"
+    ],
+    [
+      "Consider potential edge cases",
+      "Ensure that validation does not significantly impact performance"
+    ],
+    [
+      "Might be able to",
+      "we will probably have to check"
+    ],
+    [
+      "disabled it for now",
+      "not properly implemented",
+      "should be moved",
+      "should save the state",
+      "need to make sure"
+    ],
+    [
+      "\u6211\u628atemplate\u4ecellava\u6362\u6210qwen2-vl",
+      "\u53ef\u4ee5\u6b63\u5e38\u5fae\u8c03\uff0c\u4f46\u662f\u4f7f\u7528llava\u5fae\u8c03\u9047\u5230\u5982\u4e0b\u62a5\u9519"
+    ],
+    [
+      "RuntimeError",
+      "must match the size of tensor",
+      "known limitations or problems"
+    ],
+    [
+      "\u5e94\u4e3a",
+      "\u5176\u6838\u5fc3\u903b\u8f91\u4e3a"
+    ],
+    [
+      "\u4e5f\u65e0\u6d4e\u4e8e\u4e8b",
+      "\u4e0d\u8fc7\u4f3c\u4e4e\u6ca1\u6709"
+    ],
+    [
+      "\u6ca1\u6709\u6700\u65b0\u7684gpt-5",
+      "\u6ca1\u6709\u6a21\u578b\u662f\u5426\u6709\u5185\u7f6e\u641c\u7d22\u5f15\u64ce\u7684\u9009\u9879",
+      "\u8fd4\u56de504"
+    ],
+    [
+      "Seems like",
+      "Intuitively it should"
+    ],
+    [
+      "may get dropped",
+      "recommended way to handle this scenario gracefully",
+      "support session persistence mechanisms"
+    ],
+    [
+      "having trouble understanding",
+      "seems counterintuitive"
+    ],
+    [
+      "when trying to prepare training data without mining hard negatives",
+      "it tries to set the min_rank for the miner but there is no miner"
+    ],
+    [
+      "confusion",
+      "muddy figuring out",
+      "confusing to differentiate",
+      "get totally confused and conflate"
+    ],
+    [
+      "doesn't really capture",
+      "wildly off",
+      "am I missing something here?"
+    ],
+    [
+      "I can't make the complete switch",
+      "I can't find the way",
+      "Do you know a way to achieve this"
+    ],
+    [
+      "It would be nice to have",
+      "ability to generate"
+    ],
+    [
+      "instead of handling",
+      "missing model gracefully"
+    ],
+    [
+      "narrow columns",
+      "significantly hinders",
+      "occupies considerable vertical screen real estate"
+    ],
+    [
+      "This is NOT GOOD",
+      "missing",
+      "cannot see"
+    ],
+    [
+      "invalid configuration error",
+      "known limitations"
+    ],
+    [
+      "only supports",
+      "has been deprecated",
+      "doesn't support",
+      "ensure the network was created using"
+    ],
+    [
+      "It would be helpful",
+      "to be able to see",
+      "which model was used"
+    ],
+    [
+      "Error is thrown",
+      "this works fine"
+    ],
+    [
+      "known issues or limitations",
+      "recommended configurations or examples"
+    ],
+    [
+      "I notice that",
+      "Better for",
+      "I did not find a workflow"
+    ],
+    [
+      "Maybe this is already implemented?",
+      "In which case the docs just need updating."
+    ],
+    [
+      "Currently trying to implement my own spec but the only thing I can do is check if hat been set and raise an exception."
+    ],
+    [
+      "Could we have",
+      "Maybe a new node called"
+    ],
+    [
+      "does not work properly",
+      "\u65e0\u6cd5\u5c06...\u9879\u8bc6\u522b\u4e3a"
+    ],
+    [
+      "could be helpful",
+      "to automatically fix errors",
+      "at least a part of it"
+    ],
+    [
+      "Using a slow image processor",
+      "will result in minor differences in outputs",
+      "still be able to use a slow processor"
+    ],
+    [
+      "what about alternatives",
+      "feasible to abstract",
+      "pinned to `GitHub` in some immutable way"
+    ],
+    [
+      "obvious number of arguments mismatch",
+      "trivial error should be easy to fix"
+    ],
+    [
+      "confused by the example",
+      "may lead to more/duplicated github issues"
+    ],
+    [
+      "It seems that",
+      "would be nice to support"
+    ],
+    [
+      "unsafe, unsupported, undocumented workaround",
+      "unsure what is causing the issue",
+      "may be related to the fact"
+    ],
+    [
+      "will occur",
+      "who knows what the problem is"
+    ],
+    [
+      "has been deprecated",
+      "faced this trouble",
+      "requires me to yet-to-be-released version"
+    ],
+    [
+      "currently does not support",
+      "not support"
+    ],
+    [
+      "should match",
+      "different outputs"
+    ],
+    [
+      "\u63a8\u7406\u6bd44090\u61623-4\u500d",
+      "\u5360\u7528\u7387"
+    ],
+    [
+      "don't need to be reinvented",
+      "could be added",
+      "relatively low effort"
+    ],
+    [
+      "However, in many models, there is no specified max_length",
+      "20 is too small for most cases",
+      "I believe developers should fix this bug"
+    ],
+    [
+      "Right now the health check endpoint returns",
+      "There could be scenario when",
+      "health-check need to account for"
+    ],
+    [
+      "struggles to work",
+      "any other actions",
+      "dynamically loaded content"
+    ],
+    [
+      "might not work",
+      "if you encounter any issues"
+    ],
+    [
+      "unable to make more than 1 tool call",
+      "run status is completed"
+    ],
+    [
+      "returns a list instead of a tuple",
+      "But in the current project"
+    ],
+    [
+      "not able to",
+      "which i am not able to do"
+    ],
+    [
+      "Input validation error",
+      "is a required property"
+    ],
+    [
+      "currently very sparse",
+      "not tested in all cases yet",
+      "ongoing issue",
+      "should be tested"
+    ],
+    [
+      "raise NotImplemented",
+      "opt-in to add"
+    ],
+    [
+      "face Cuda out of memory issue",
+      "ram allocation always reach"
+    ],
+    [
+      "failed to listen",
+      "failed to bind",
+      "errno: 98 - Address already in use"
+    ],
+    [
+      "AssertionError",
+      "assert not"
+    ],
+    [
+      "expects 3 returned values",
+      "hasn't been updated to match",
+      "causes a runtime error",
+      "is likely due to a recent commit",
+      "was not updated accordingly"
+    ],
+    [
+      "IndexError",
+      "out of range"
+    ],
+    [
+      "I am getting dimensions mismatch",
+      "I am getting similar dimension mismatch errors",
+      "Does that mean models with 2_Dense layer is not yet supported?"
+    ],
+    [
+      "not being passed",
+      "not included",
+      "prevents the rope scaling configuration from being passed"
+    ],
+    [
+      "should show",
+      "should just be",
+      "should tooltip show",
+      "would just drop",
+      "we should have",
+      "strong dislike for",
+      "could show",
+      "can just get rid of"
+    ],
+    [
+      "low results",
+      "worked like a charm",
+      "bad results again",
+      "what do I miss here?",
+      "not technically feasible"
+    ],
+    [
+      "It appears",
+      "may only support"
+    ],
+    [
+      "\u53ef\u80fd\u7684\u89e3\u51b3\u529e\u6cd5",
+      "\u6bcf\u6b21response\u7684\u65f6\u5019\u66f4\u65b0"
+    ],
+    [
+      "missing both `issuer` and `authorization` endpoint config",
+      "At least one of them is required"
+    ],
+    [
+      "it seems like",
+      "I notice that",
+      "I found",
+      "I further find",
+      "I tried to fix those errors"
+    ],
+    [
+      "seemed to still have issues",
+      "Let's investigate if we can",
+      "likely to pollute the experiment results"
+    ],
+    [
+      "can be quite tricky",
+      "has been quite tricky"
+    ],
+    [
+      "I will leave it for future"
+    ],
+    [
+      "Getting erros like:",
+      "This is not a chat model and thus not supported",
+      "Did you mean to use"
+    ],
+    [
+      "How to turn off return of",
+      "just Return the dict"
+    ],
+    [
+      "too slow",
+      "below 50%",
+      "too low"
+    ],
+    [
+      "\u597d\u50cf\u662f",
+      "\u8fd9\u4e2a\u5728\u54ea\u8bbe\u7f6e\uff1f"
+    ],
+    [
+      "cannot run tasks simultaneously",
+      "tasks get queued",
+      "will run after the first task is completed"
+    ],
+    [
+      "need to update",
+      "requirement"
+    ],
+    [
+      "causing problems",
+      "might want to",
+      "add an exception"
+    ],
+    [
+      "notice when I give a task",
+      "it will switch",
+      "keeps switching back",
+      "previous versions work just fine"
+    ],
+    [
+      "Currently the Agents list in the Library is ordered based on time of last edit",
+      "this should be ordered by the time of last execution",
+      "not just those manually triggered through the GUI"
+    ],
+    [
+      "I believe we should have",
+      "If it makes sense, I can create a PR"
+    ],
+    [
+      "basically impossible",
+      "under specified",
+      "checking implementation specific details",
+      "weren't actually stated requirements"
+    ],
+    [
+      "I'm unsure of what my last version was",
+      "refuses to run with the same model and same settings"
+    ],
+    [
+      "sometimes ... gives invalid",
+      "Invalid ... JSON",
+      "Future Improvements",
+      "Provide more detailed ...",
+      "Enhance ... mechanisms"
+    ],
+    [
+      "the checkpoint you are trying to load has model type ... but ... does not recognize this architecture.",
+      "This could be because of an issue with the checkpoint, or because your version of Transformers is out of date."
+    ],
+    [
+      "\u9700\u8981\u6d88\u8017\u8fd9\u4e48\u591a\u8d44\u6e90\u5417",
+      "\u54ea\u91cc\u53ef\u4ee5\u4f18\u5316\u5462"
+    ],
+    [
+      "I don\u2019t have enough GPU memory",
+      "Can I quantize... when VRAM is not enough?",
+      "Is layer/block\u2011wise calibration supported?",
+      "Any out\u2011of\u2011core/offload option..."
+    ],
+    [
+      "this error occurs",
+      "How can I fix it?"
+    ],
+    [
+      "any way to get support for",
+      "there were any progress since then?"
+    ],
+    [
+      "as much VRAM as the model's size",
+      "all experts are loaded always"
+    ],
+    [
+      "It is understandable that citations are not included",
+      "Is it possible to enhance the API",
+      "provide another API for receiving the citation data"
+    ],
+    [
+      "FutureWarning",
+      "deprecated",
+      "not specified",
+      "defaulting to"
+    ],
+    [
+      "Warning:",
+      "skipping update!"
+    ],
+    [
+      "I wish we could support",
+      "I'm planning to support",
+      "\u53ef\u80fd\u518d\u4eff\u7167",
+      "\u672a\u6765\u9664\u4e86midjourney\u518d\u63a5\u5165"
+    ],
+    [
+      "failed during benchmarking",
+      "Expected all tensors to be on the same device"
+    ],
+    [
+      "I would like to have",
+      "Or at least",
+      "hard time finding"
+    ],
+    [
+      "It's really",
+      "add 2 parse",
+      "short description"
+    ],
+    [
+      "Does the number of GPU cards I have necessarily need to be",
+      "Does this configuration require"
+    ],
+    [
+      "proposal to improve",
+      "add the issuance of api key",
+      "not only by the validity period",
+      "but add the use of the number of tokens"
+    ],
+    [
+      "\u6709\u95ee\u9898",
+      "\u4f4e\u6c89",
+      "\u6b63\u5e38"
+    ],
+    [
+      "requires a lot of additional configuration",
+      "causing problems if used in an already instrumented application",
+      "makes it troublesome to rotate the secrets quickly"
+    ],
+    [
+      "This suggests there might be an issue",
+      "I need to investigate this further to understand the root cause"
+    ],
+    [
+      "I need to change",
+      "I am unable to do that now"
+    ],
+    [
+      "If I set ... I can run normally."
+    ],
+    [
+      "breaking change",
+      "cannot import name"
+    ],
+    [
+      "I think it's a typo",
+      "Currently, in case the data is re-ordered and `save=True`, it is written to file and the file path is returned.",
+      "the caller likely then would call the function again",
+      "that's just a lot of extra unnecessary work"
+    ],
+    [
+      "need refactoring",
+      "understanding their dependencies",
+      "enhance code generation agent's ability",
+      "improving its capability",
+      "identify refactor opportunities",
+      "understand the implications of those changes"
+    ],
+    [
+      "OOMs during eval",
+      "exploring reducing",
+      "significantly impacts the run time"
+    ],
+    [
+      "used to work perfectly fine",
+      "could not get model list",
+      "only the model that I had loaded in the system was working",
+      "it would be nice to have"
+    ],
+    [
+      "We\u2019re stuck on",
+      "Let us know if there\u2019s a recommended approach or workaround"
+    ],
+    [
+      "only one way to input",
+      "so many pdf files"
+    ],
+    [
+      "takes about 5s to start",
+      "only small subset of all features are used",
+      "not to load all that huge megabytes at once",
+      "startup time may be critical"
+    ],
+    [
+      "don't work as they should",
+      "doesn't answer when using gpt-4o model",
+      "when it the gpt-4o model predicted to be working"
+    ],
+    [
+      "something in the requirements is wrong",
+      "didn't help"
+    ],
+    [
+      "can be deployed without any errors",
+      "most common architecture/OS"
+    ],
+    [
+      "Setting ... to ... (auto detect)",
+      "\u6ca1\u6709\u90a3\u4e2a\u6587\u4ef6\u6216\u76ee\u5f55",
+      "Permission denied"
+    ],
+    [
+      "DeprecationWarning",
+      "Please move to"
+    ],
+    [
+      "I think to build a docker image would not be hard.",
+      "this image builf from huggingface is giving me the following log:",
+      "THIS IMAGE IS DEPRECATED and is scheduled for DELETION."
+    ],
+    [
+      "pretty slow",
+      "can take a few minutes"
+    ]
+  ],
+  "satd_count": 357,
+  "total_analyzed": 500
+}

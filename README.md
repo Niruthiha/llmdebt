@@ -36,7 +36,8 @@ It enables a systematic investigation of novel maintenance challenges such as:
 |------|--------------|
 | `raw_llm_dataset.json` | Main dataset containing all GitHub issues (cleaned and processed) |
 | `complete_158_repositories_clean.json` | Repository metadata for all validated repositories |
-| [Repository classification with Layer 1 & Layer 2 annotations](https://docs.google.com/spreadsheets/d/1ALe6BvJUF6pj3avhlppAJFstcB_WBgvOeufE_xLzljk/edit?gid=546671505#gid=546671505)
+| `final_160_repositories.csv` |Full 160 repos with Layer 1 + Layer 2 |
+
  
 
 ---

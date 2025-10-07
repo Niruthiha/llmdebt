@@ -63,35 +63,35 @@ It enables a systematic investigation of novel maintenance challenges such as:
 
 ### Issue Object Structure
     ```json
-{
-  "issue_id": "integer",
-  "repo_name": "string",
-  "title": "string",
-  "body": "string",
-  "state": "open|closed",
-  "created_at": "ISO 8601 timestamp",
-  "updated_at": "ISO 8601 timestamp",
-  "closed_at": "ISO 8601 timestamp or null",
-  "author": "string",
-  "labels": ["array of strings"],
-  "comments_count": "integer",
-  "reactions": "integer"
-}
+      {
+        "issue_id": "integer",
+        "repo_name": "string",
+        "title": "string",
+        "body": "string",
+        "state": "open|closed",
+        "created_at": "ISO 8601 timestamp",
+        "updated_at": "ISO 8601 timestamp",
+        "closed_at": "ISO 8601 timestamp or null",
+        "author": "string",
+        "labels": ["array of strings"],
+        "comments_count": "integer",
+        "reactions": "integer"
+      }
 
 ### Repository Metadata Structure
     ```json
-{
-  "repo_name": "string",
-  "stars": "integer",
-  "forks": "integer",
-  "contributors": "integer",
-  "created_at": "ISO 8601 timestamp",
-  "last_commit": "ISO 8601 timestamp",
-  "primary_language": "string",
-  "topics": ["array of strings"],
-  "layer1_classification": "Infrastructure|Application",
-  "layer2_tags": "comma-separated string"
-}
+        {
+          "repo_name": "string",
+          "stars": "integer",
+          "forks": "integer",
+          "contributors": "integer",
+          "created_at": "ISO 8601 timestamp",
+          "last_commit": "ISO 8601 timestamp",
+          "primary_language": "string",
+          "topics": ["array of strings"],
+          "layer1_classification": "Infrastructure|Application",
+          "layer2_tags": "comma-separated string"
+        }
 
 ## Dataset Statistics
 
